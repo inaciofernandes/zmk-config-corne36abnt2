@@ -13,27 +13,26 @@
 #include "keys_pt_abnt2.h"                  //  ABNT2 keyboard
 
 #define HM_TAPPING_TERM 200
-#define HM_PRIOR_IDLE 150
+#define HM_PRIOR_IDLE   150
 
 // Layer definitions
-#define BASE    0
-#define ACCR    1
-#define NAVI    2
-#define NUMB    3
-#define SYMB    4
-#define FUNC    5
-#define ACCL    6
-#define WXYZ    7
+#define BASE    0   //  Camada base
+#define ACCN    1   //  Acentos e letras já acentuadas
+#define NAVI    2   //  Navegação
+#define NUMB    3   //  Números e símbolos de fácil acesso
+#define SYMB    4   //  Símbolos
+#define FUNC    5   //  Funções
+#define WXYZ    6   //  Camada reserva
 
 // Behavior configuration
 &mt {
-    tapping-term-ms = <HM_TAPPING_TERM>;
-    flavor = "tap-preferred";
+    tapping-term-ms =   <HM_TAPPING_TERM>;
+    flavor          =   "tap-preferred";
 };
 
 &lt {
-    tapping-term-ms = <HM_TAPPING_TERM>;
-    flavor = "tap-preferred";
+    tapping-term-ms =   <HM_TAPPING_TERM>;
+    flavor          =   "tap-preferred";
 };
 
 / {
@@ -60,20 +59,8 @@
 
     behaviors {
 
-        // Home row mods normais (mod-tap)
-        
-        hml: homerow_mods_left {
-            compatible              =   "zmk,behavior-hold-tap";
-            #binding-cells          =   <2>;
-            flavor                  =   "balanced";
-            tapping-term-ms         =   <HM_TAPPING_TERM>;
-            quick-tap-ms            =   <175>;
-            require-prior-idle-ms   =   <HM_PRIOR_IDLE>;
-            bindings                =   <&kp>, <&kp>;
-            hold-trigger-on-release;
-        };
-
-        hmr: homerow_mods_right {
+        // Behavior Único de Home Row Mod (Unificado)
+        hm: homerow_mods {
             compatible              =   "zmk,behavior-hold-tap";
             #binding-cells          =   <2>;
             flavor                  =   "balanced";
@@ -87,161 +74,104 @@
         // Mod-morphs para acentuação
 
         a_tilde: a_tilde {
-            compatible              =   "zmk,behavior-mod-morph";
-            label                   =   "A_TILDE";
-            #binding-cells          =   <2>;
-            mods                    =   <(MOD_LSFT|MOD_RSFT)>;
-            flavor                  =   "balanced";
-            tapping-term-ms         =   <HM_TAPPING_TERM>;
-            quick-tap-ms            =   <175>;
-            require-prior-idle-ms   =   <HM_PRIOR_IDLE>;
-            bindings                =   <&accent PT_TILDE PT_A>
-                                    ,   <&accent PT_TILDE LS(PT_A)>;
-            hold-trigger-on-release;
+            compatible      =   "zmk,behavior-mod-morph";
+            label           =   "A_TILDE";
+            #binding-cells  =   <0>;
+            mods            =   <(MOD_LSFT|MOD_RSFT)>;
+            bindings        =   <&accent PT_TILDE PT_A>
+                            ,   <&accent PT_TILDE LS(PT_A)>;
         };
 
         a_acute: a_acute {
-            compatible              =   "zmk,behavior-mod-morph";
-            label                   =   "A_ACUTE";
-            #binding-cells          =   <2>;
-            mods                    =   <(MOD_LSFT|MOD_RSFT)>;
-            flavor                  =   "balanced";
-            tapping-term-ms         =   <HM_TAPPING_TERM>;
-            quick-tap-ms            =   <175>;
-            require-prior-idle-ms   =   <HM_PRIOR_IDLE>;
-            bindings                =   <&accent PT_ACUTE PT_A>
-                                    ,   <&accent PT_ACUTE LS(PT_A)>;
-            hold-trigger-on-release;
+            compatible      =   "zmk,behavior-mod-morph";
+            label           =   "A_ACUTE";
+            #binding-cells  =   <0>;
+            mods            =   <(MOD_LSFT|MOD_RSFT)>;
+            bindings        =   <&accent PT_ACUTE PT_A>
+                            ,   <&accent PT_ACUTE LS(PT_A)>;
         };
 
         a_circ: a_circ {
-            compatible              =   "zmk,behavior-mod-morph";
-            label                   =   "A_CIRC";
-            #binding-cells          =   <2>;
-            mods                    =   <(MOD_LSFT|MOD_RSFT)>;
-            flavor                  =   "balanced";
-            tapping-term-ms         =   <HM_TAPPING_TERM>;
-            quick-tap-ms            =   <175>;
-            require-prior-idle-ms   =   <HM_PRIOR_IDLE>;
-            bindings                =   <&accent PT_CARET PT_A>
-                                    ,   <&accent PT_CARET LS(PT_A)>;
-            hold-trigger-on-release;
+            compatible      =   "zmk,behavior-mod-morph";
+            label           =   "A_CIRC";
+            #binding-cells  =   <0>;
+            mods            =   <(MOD_LSFT|MOD_RSFT)>;
+            bindings        =   <&accent PT_CARET PT_A>
+                            ,   <&accent PT_CARET LS(PT_A)>;
         };
 
         a_grave: a_grave {
-            compatible              =   "zmk,behavior-mod-morph";
-            label                   =   "A_GRAVE";
-            #binding-cells          =   <2>;
-            mods                    =   <(MOD_LSFT|MOD_RSFT)>;
-            flavor                  =   "balanced";
-            tapping-term-ms         =   <HM_TAPPING_TERM>;
-            quick-tap-ms            =   <175>;
-            require-prior-idle-ms   =   <HM_PRIOR_IDLE>;
-            bindings                =   <&accent PT_GRAVE PT_A>
-                                    ,   <&accent PT_GRAVE LS(PT_A)>;
-            hold-trigger-on-release;
+            compatible      =   "zmk,behavior-mod-morph";
+            label           =   "A_GRAVE";
+            #binding-cells  =   <0>;
+            mods            =   <(MOD_LSFT|MOD_RSFT)>;
+            bindings        =   <&accent PT_GRAVE PT_A>
+                            ,   <&accent PT_GRAVE LS(PT_A)>;
         };
 
         e_acute: e_acute {
-            compatible              =   "zmk,behavior-mod-morph";
-            label                   =   "E_ACUTE";
-            #binding-cells          =   <2>;
-            mods                    =   <(MOD_LSFT|MOD_RSFT)>;
-            flavor                  =   "balanced";
-            tapping-term-ms         =   <HM_TAPPING_TERM>;
-            quick-tap-ms            =   <175>;
-            require-prior-idle-ms   =   <HM_PRIOR_IDLE>;
-            bindings                =   <&accent PT_ACUTE PT_E>
-                                    ,   <&accent PT_ACUTE LS(PT_E)>;
-            hold-trigger-on-release;
+            compatible      =   "zmk,behavior-mod-morph";
+            label           =   "E_ACUTE";
+            #binding-cells  =   <0>;
+            mods            =   <(MOD_LSFT|MOD_RSFT)>;
+            bindings        =   <&accent PT_ACUTE PT_E>
+                            ,   <&accent PT_ACUTE LS(PT_E)>;
         };
 
         e_circ: e_circ {
-            compatible              =   "zmk,behavior-mod-morph";
-            label                   =   "E_CIRC";
-            #binding-cells          =   <2>;
-            mods                    =   <(MOD_LSFT|MOD_RSFT)>;
-            flavor                  =   "balanced";
-            tapping-term-ms         =   <HM_TAPPING_TERM>;
-            quick-tap-ms            =   <175>;
-            require-prior-idle-ms   =   <HM_PRIOR_IDLE>;
-            bindings                =   <&accent PT_CARET PT_E>
-                                    ,   <&accent PT_CARET LS(PT_E)>;
-            hold-trigger-on-release;
+            compatible      =   "zmk,behavior-mod-morph";
+            label           =   "E_CIRC";
+            #binding-cells  =   <0>;
+            mods            =   <(MOD_LSFT|MOD_RSFT)>;
+            bindings        =   <&accent PT_CARET PT_E>
+                            ,   <&accent PT_CARET LS(PT_E)>;
         };
 
         i_acute: i_acute {
-            compatible              =   "zmk,behavior-mod-morph";
-            label                   =   "I_ACUTE";
-            #binding-cells          =   <2>;
-            mods                    =   <(MOD_LSFT|MOD_RSFT)>;
-            flavor                  =   "balanced";
-            tapping-term-ms         =   <HM_TAPPING_TERM>;
-            quick-tap-ms            =   <175>;
-            require-prior-idle-ms   =   <HM_PRIOR_IDLE>;
-            bindings                =   <&accent PT_ACUTE PT_I>
-                                    ,   <&accent PT_ACUTE LS(PT_I)>;
-            hold-trigger-on-release;
+            compatible      =   "zmk,behavior-mod-morph";
+            label           =   "I_ACUTE";
+            #binding-cells  =   <0>;
+            mods            =   <(MOD_LSFT|MOD_RSFT)>;
+            bindings        =   <&accent PT_ACUTE PT_I>
+                            ,   <&accent PT_ACUTE LS(PT_I)>;
         };
 
         o_tilde: o_tilde {
-            compatible              =   "zmk,behavior-mod-morph";
-            label                   =   "O_TILDE";
-            #binding-cells          =   <2>;
-            mods                    =   <(MOD_LSFT|MOD_RSFT)>;
-            flavor                  =   "balanced";
-            tapping-term-ms         =   <HM_TAPPING_TERM>;
-            quick-tap-ms            =   <175>;
-            require-prior-idle-ms   =   <HM_PRIOR_IDLE>;
-            bindings                =   <&accent PT_TILDE PT_O>
-                                    ,   <&accent PT_TILDE LS(PT_O)>;
-            hold-trigger-on-release;
+            compatible      =   "zmk,behavior-mod-morph";
+            label           =   "O_TILDE";
+            #binding-cells  =   <0>;
+            mods            =   <(MOD_LSFT|MOD_RSFT)>;
+            bindings        =   <&accent PT_TILDE PT_O>
+                            ,   <&accent PT_TILDE LS(PT_O)>;
         };
 
         o_acute: o_acute {
-            compatible              =   "zmk,behavior-mod-morph";
-            label                   =   "O_ACUTE";
-            #binding-cells          =   <2>;
-            mods                    =   <(MOD_LSFT|MOD_RSFT)>;
-            flavor                  =   "balanced";
-            tapping-term-ms         =   <HM_TAPPING_TERM>;
-            quick-tap-ms            =   <175>;
-            require-prior-idle-ms   =   <HM_PRIOR_IDLE>;
-            bindings                =   <&accent PT_ACUTE PT_O>
-                                    ,   <&accent PT_ACUTE LS(PT_O)>;
-            hold-trigger-on-release;
+            compatible      =   "zmk,behavior-mod-morph";
+            label           =   "O_ACUTE";
+            #binding-cells  =   <0>;
+            mods            =   <(MOD_LSFT|MOD_RSFT)>;
+            bindings        =   <&accent PT_ACUTE PT_O>
+                            ,   <&accent PT_ACUTE LS(PT_O)>;
         };
 
         o_circ: o_circ {
-            compatible              =   "zmk,behavior-mod-morph";
-            label                   =   "O_CIRC";
-            #binding-cells          =   <2>;
-            mods                    =   <(MOD_LSFT|MOD_RSFT)>;
-            flavor                  =   "balanced";
-            tapping-term-ms         =   <HM_TAPPING_TERM>;
-            quick-tap-ms            =   <175>;
-            require-prior-idle-ms   =   <HM_PRIOR_IDLE>;
-            bindings                =   <&accent PT_CARET PT_O>
-                                    ,   <&accent PT_CARET LS(PT_O)>;
-            hold-trigger-on-release;
+            compatible      =   "zmk,behavior-mod-morph";
+            label           =   "O_CIRC";
+            #binding-cells  =   <0>;
+            mods            =   <(MOD_LSFT|MOD_RSFT)>;
+            bindings        =   <&accent PT_CARET PT_O>
+                            ,   <&accent PT_CARET LS(PT_O)>;
         };
 
         u_acute: u_acute {
-            compatible              =   "zmk,behavior-mod-morph";
-            label                   =   "U_ACUTE";
-            #binding-cells          =   <2>;
-            mods                    =   <(MOD_LSFT|MOD_RSFT)>;
-            flavor                  =   "balanced";
-            tapping-term-ms         =   <HM_TAPPING_TERM>;
-            quick-tap-ms            =   <175>;
-            require-prior-idle-ms   =   <HM_PRIOR_IDLE>;
-            bindings                =   <&accent PT_ACUTE PT_U>
-                                    ,   <&accent PT_ACUTE LS(PT_U)>;
-            hold-trigger-on-release;
+            compatible      =   "zmk,behavior-mod-morph";
+            label           =   "U_ACUTE";
+            #binding-cells  =   <0>;
+            mods            =   <(MOD_LSFT|MOD_RSFT)>;
+            bindings        =   <&accent PT_ACUTE PT_U>
+                            ,   <&accent PT_ACUTE LS(PT_U)>;
         };
     };
-
-
 
     keymap {
         compatible = "zmk,keymap";
@@ -251,27 +181,27 @@
             label = "Default";
             bindings = <
                 //    ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮   ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
-                &none  &kp PT_Q         &kp PT_W        &kp PT_E        &kp PT_R        &kp PT_T            &kp PT_Y        &kp PT_U        &kp PT_I        &kp PT_O        &kp PT_P        &none
+                &none   &kp PT_Q        &kp PT_W        &kp PT_E        &kp PT_R        &kp PT_T            &kp PT_Y        &kp PT_U        &kp PT_I        &kp PT_O        &kp PT_P        &none
                 //    ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-                &none  &hml LGUI PT_A   &hml LALT PT_S  &hml LCTRL PT_D &hml LSHFT PT_F &kp PT_G            &kp PT_H        &hmr RSHFT PT_J &hmr RCTRL PT_K &hmr RALT PT_L  &hmr RGUI PT_C_CEDILLA  &none
+                &none   &hm LGUI PT_A   &hm LALT PT_S   &hm LCTRL PT_D  &hm LSHFT PT_F  &kp PT_G            &kp PT_H        &hm RSHFT PT_J  &hm RCTRL PT_K  &hm RALT PT_L   &hm RGUI PT_C_CEDILLA  &none
                 //    ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-                &none  &kp PT_Z         &kp PT_X        &kp PT_C        &kp PT_V        &kp PT_B            &kp PT_N        &kp PT_M        &kp PT_COMMA    &kp PT_DOT      &kp PT_SLASH    &none
+                &none   &kp PT_Z        &kp PT_X        &kp PT_C        &kp PT_V        &kp PT_B            &kp PT_N        &kp PT_M        &kp PT_COMMA    &kp PT_DOT      &kp PT_SLASH    &none
                 //    ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
-                                                        &lt ACCR ESC    &lt NAVI SPACE  &lt NUMB TAB        &lt SYMB RET    &lt FUNC BSPC   &lt ACCL DEL
+                                                        &lt ACCN ESC    &lt NAVI SPACE  &lt NUMB TAB        &lt SYMB RET    &lt FUNC BSPC   &lt ACCN DEL
                 //                                    ╰───────────────┴───────────────┴───────────────╯   ╰───────────────┴───────────────┴───────────────╯
             >;
         };
 
-        accentsRight_layer {
-            display-name = "Acc Right";
-            label = "AccentsRight";
+        accents_layer {
+            display-name = "ACCENTS";
+            label = "Accents";
             bindings = <
                 //    ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮   ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
-                &none   &a_tilde        &none           &none           &none           &kp PT_TILDE        &kp PT_TILDE    &none           &none           &o_tilde        &none           &none
+                &none  &a_tilde        &none           &none           &none           &kp PT_TILDE        &kp PT_TILDE    &none           &none           &o_tilde        &none           &none
                 //    ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-                &none   &a_acute LGUI 0 &a_grave LALT 0 &e_acute LCTRL 0    &kp LSHFT   &kp PT_ACUTE        &kp PT_ACUTE    &u_acute RSHFT 0  &i_acute RCTRL 0  &o_acute RALT 0 &kp RGUI    &none
+                &none  &a_acute        &a_grave        &e_acute        &kp LSHFT       &none               &none           &u_acute        &i_acute        &o_acute        &none           &none
                 //    ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-                &none   &a_circ         &none           &e_circ         &kp PT_GRAVE    &kp PT_CARET        &kp PT_CARET    &kp PT_GRAVE    &none           &o_circ         &none           &none
+                &none  &a_circ         &none           &e_circ         &kp PT_GRAVE    &kp PT_CARET        &kp PT_CARET    &kp PT_GRAVE    &none           &o_circ         &none           &none
                 //    ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
                                                         &none           &none           &none               &none           &none           &none
                 //                                    ╰───────────────┴───────────────┴───────────────╯   ╰───────────────┴───────────────┴───────────────╯
@@ -299,13 +229,13 @@
             label = "Numbers";
             bindings = <
                 //    ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮   ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
-                &none   &none           &none           &none           &none           &none               &kp PT_LBKT        &kp PT_N7          &kp PT_N8          &kp PT_N9          &kp PT_RBKT        &none
+                &none   &none           &none           &none           &none           &none               &kp PT_LBKT     &kp PT_N7       &kp PT_N8       &kp PT_N9       &kp PT_RBKT     &none
                 //    ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-                &none   &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &none               &kp PT_SEMI        &kp PT_N4          &kp PT_N5          &kp PT_N6          &kp PT_EQUAL       &none
+                &none   &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &none               &kp PT_SEMI     &kp PT_N4       &kp PT_N5       &kp PT_N6       &kp PT_EQUAL    &none
                 //    ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-                &none   &none           &none           &none           &none           &none               &kp PT_GRAVE       &kp PT_N1          &kp PT_N2          &kp PT_N3          &kp PT_BSLH        &none
+                &none   &none           &none           &none           &none           &none               &kp PT_GRAVE    &kp PT_N1       &kp PT_N2       &kp PT_N3       &kp PT_BSLH     &none
                 //    ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
-                                                        &none           &none           &none               &kp PT_DOT         &kp PT_N0          &kp PT_MINUS
+                                                        &none           &none           &none               &kp PT_DOT      &kp PT_N0       &kp PT_MINUS
                 //                                    ╰───────────────┴───────────────┴───────────────╯   ╰───────────────┴───────────────┴───────────────╯
             >;
         };
@@ -338,22 +268,6 @@
                 &none   &kp F10         &kp F1          &kp F2          &kp F3          &kp PAUSE_BREAK     &none           &none           &none           &none           &none           &none
                 //    ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
                                                         &kp K_APP       &kp SPACE       &kp TAB             &none           &none           &none
-                //                                    ╰───────────────┴───────────────┴───────────────╯   ╰───────────────┴───────────────┴───────────────╯
-            >;
-        };
-
-        accentsLeft_layer {
-            display-name = "Acc Left";
-            label = "AccentsLeft";
-            bindings = <
-                //    ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮   ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
-                &none   &a_tilde        &none           &none           &none           &kp PT_TILDE        &kp PT_TILDE    &none           &none           &none           &none           &none
-                //    ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-                &none   &a_acute        &a_grave        &e_acute        &none           &none               &none           &kp RSHFT       &kp RCTRL       &kp RALT        &kp RGUI        &none
-                //    ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-                &none   &a_circ         &none           &e_circ         &kp PT_GRAVE    &kp PT_CARET        &kp PT_CARET    &kp PT_GRAVE    &none           &none           &none           &none
-                //    ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
-                                                        &none           &none           &none               &none           &none           &none
                 //                                    ╰───────────────┴───────────────┴───────────────╯   ╰───────────────┴───────────────┴───────────────╯
             >;
         };
