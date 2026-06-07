@@ -12,8 +12,6 @@
 #include <dt-bindings/zmk/pointing.h>       //  ZMK mouse
 #include "keys_pt_abnt2.h"                  //  ABNT2 keyboard
 
-
-
 #define HM_TAPPING_TERM 200
 #define HM_PRIOR_IDLE 150
 
@@ -27,8 +25,6 @@
 #define ACCL    6
 #define WXYZ    7
 
-
-
 // Behavior configuration
 &mt {
     tapping-term-ms = <HM_TAPPING_TERM>;
@@ -40,8 +36,6 @@
     flavor = "tap-preferred";
 };
 
-
-
 / {
     combos {
         compatible          =   "zmk,combos";
@@ -51,8 +45,6 @@
             key-positions   =   <13 22>;
         };
     };
-
-
 
     macros {
         accent: acute {
@@ -66,132 +58,186 @@
         };
     };
 
-
-
     behaviors {
 
-        // Home row mods (mod-tap)
+        // Home row mods normais (mod-tap)
         
         hml: homerow_mods_left {
-            compatible                  =   "zmk,behavior-hold-tap";
-            #binding-cells              =   <2>;
-            flavor                      =   "balanced";
-            tapping-term-ms             =   <HM_TAPPING_TERM>;
-            quick-tap-ms                =   <175>;
-            require-prior-idle-ms       =   <HM_PRIOR_IDLE>;
-            bindings                    =   <&kp>, <&kp>;
+            compatible              =   "zmk,behavior-hold-tap";
+            #binding-cells          =   <2>;
+            flavor                  =   "balanced";
+            tapping-term-ms         =   <HM_TAPPING_TERM>;
+            quick-tap-ms            =   <175>;
+            require-prior-idle-ms   =   <HM_PRIOR_IDLE>;
+            bindings                =   <&kp>, <&kp>;
             hold-trigger-on-release;
         };
 
         hmr: homerow_mods_right {
-            compatible                  =   "zmk,behavior-hold-tap";
-            #binding-cells              =   <2>;
-            flavor                      =   "balanced";
-            tapping-term-ms             =   <HM_TAPPING_TERM>;
-            quick-tap-ms                =   <175>;
-            require-prior-idle-ms       =   <HM_PRIOR_IDLE>;
-            bindings                    =   <&kp>, <&kp>;
+            compatible              =   "zmk,behavior-hold-tap";
+            #binding-cells          =   <2>;
+            flavor                  =   "balanced";
+            tapping-term-ms         =   <HM_TAPPING_TERM>;
+            quick-tap-ms            =   <175>;
+            require-prior-idle-ms   =   <HM_PRIOR_IDLE>;
+            bindings                =   <&kp>, <&kp>;
             hold-trigger-on-release;
         };
 
+        // Mod-morphs para acentuação
+
         a_tilde: a_tilde {
-            compatible      =   "zmk,behavior-mod-morph";
-            label           =   "A_TILDE";
-            #binding-cells  =   <0>;
-            mods            =   <(MOD_LSFT|MOD_RSFT)>;
-            bindings        =   <&accent PT_TILDE PT_A>
-                            ,   <&accent PT_TILDE LS(PT_A)>;
+            compatible              =   "zmk,behavior-mod-morph";
+            label                   =   "A_TILDE";
+            #binding-cells          =   <2>;
+            mods                    =   <(MOD_LSFT|MOD_RSFT)>;
+            flavor                  =   "balanced";
+            tapping-term-ms         =   <HM_TAPPING_TERM>;
+            quick-tap-ms            =   <175>;
+            require-prior-idle-ms   =   <HM_PRIOR_IDLE>;
+            bindings                =   <&accent PT_TILDE PT_A>
+                                    ,   <&accent PT_TILDE LS(PT_A)>;
+            hold-trigger-on-release;
         };
 
         a_acute: a_acute {
-            compatible      =   "zmk,behavior-mod-morph";
-            label           =   "A_ACUTE";
-            #binding-cells  =   <0>;
-            mods            =   <(MOD_LSFT|MOD_RSFT)>;
-            bindings        =   <&accent PT_ACUTE PT_A>
-                            ,   <&accent PT_ACUTE LS(PT_A)>;
+            compatible              =   "zmk,behavior-mod-morph";
+            label                   =   "A_ACUTE";
+            #binding-cells          =   <2>;
+            mods                    =   <(MOD_LSFT|MOD_RSFT)>;
+            flavor                  =   "balanced";
+            tapping-term-ms         =   <HM_TAPPING_TERM>;
+            quick-tap-ms            =   <175>;
+            require-prior-idle-ms   =   <HM_PRIOR_IDLE>;
+            bindings                =   <&accent PT_ACUTE PT_A>
+                                    ,   <&accent PT_ACUTE LS(PT_A)>;
+            hold-trigger-on-release;
         };
 
-
         a_circ: a_circ {
-            compatible      =   "zmk,behavior-mod-morph";
-            label           =   "A_CIRC";
-            #binding-cells  =   <0>;
-            mods            =   <(MOD_LSFT|MOD_RSFT)>;
-            bindings        =   <&accent PT_CARET PT_A>
-                            ,   <&accent PT_CARET LS(PT_A)>;
+            compatible              =   "zmk,behavior-mod-morph";
+            label                   =   "A_CIRC";
+            #binding-cells          =   <2>;
+            mods                    =   <(MOD_LSFT|MOD_RSFT)>;
+            flavor                  =   "balanced";
+            tapping-term-ms         =   <HM_TAPPING_TERM>;
+            quick-tap-ms            =   <175>;
+            require-prior-idle-ms   =   <HM_PRIOR_IDLE>;
+            bindings                =   <&accent PT_CARET PT_A>
+                                    ,   <&accent PT_CARET LS(PT_A)>;
+            hold-trigger-on-release;
         };
 
         a_grave: a_grave {
-            compatible      =   "zmk,behavior-mod-morph";
-            label           =   "A_GRAVE";
-            #binding-cells  =   <0>;
-            mods            =   <(MOD_LSFT|MOD_RSFT)>;
-            bindings        =   <&accent PT_GRAVE PT_A>
-                            ,   <&accent PT_GRAVE LS(PT_A)>;
+            compatible              =   "zmk,behavior-mod-morph";
+            label                   =   "A_GRAVE";
+            #binding-cells          =   <2>;
+            mods                    =   <(MOD_LSFT|MOD_RSFT)>;
+            flavor                  =   "balanced";
+            tapping-term-ms         =   <HM_TAPPING_TERM>;
+            quick-tap-ms            =   <175>;
+            require-prior-idle-ms   =   <HM_PRIOR_IDLE>;
+            bindings                =   <&accent PT_GRAVE PT_A>
+                                    ,   <&accent PT_GRAVE LS(PT_A)>;
+            hold-trigger-on-release;
         };
 
         e_acute: e_acute {
-            compatible      =   "zmk,behavior-mod-morph";
-            label           =   "E_ACUTE";
-            #binding-cells  =   <0>;
-            mods            =   <(MOD_LSFT|MOD_RSFT)>;
-            bindings        =   <&accent PT_ACUTE PT_E>
-                            ,   <&accent PT_ACUTE LS(PT_E)>;
+            compatible              =   "zmk,behavior-mod-morph";
+            label                   =   "E_ACUTE";
+            #binding-cells          =   <2>;
+            mods                    =   <(MOD_LSFT|MOD_RSFT)>;
+            flavor                  =   "balanced";
+            tapping-term-ms         =   <HM_TAPPING_TERM>;
+            quick-tap-ms            =   <175>;
+            require-prior-idle-ms   =   <HM_PRIOR_IDLE>;
+            bindings                =   <&accent PT_ACUTE PT_E>
+                                    ,   <&accent PT_ACUTE LS(PT_E)>;
+            hold-trigger-on-release;
         };
 
         e_circ: e_circ {
-            compatible      =   "zmk,behavior-mod-morph";
-            label           =   "E_CIRC";
-            #binding-cells  =   <0>;
-            mods            =   <(MOD_LSFT|MOD_RSFT)>;
-            bindings        =   <&accent PT_CARET PT_E>
-                            ,   <&accent PT_CARET LS(PT_E)>;
+            compatible              =   "zmk,behavior-mod-morph";
+            label                   =   "E_CIRC";
+            #binding-cells          =   <2>;
+            mods                    =   <(MOD_LSFT|MOD_RSFT)>;
+            flavor                  =   "balanced";
+            tapping-term-ms         =   <HM_TAPPING_TERM>;
+            quick-tap-ms            =   <175>;
+            require-prior-idle-ms   =   <HM_PRIOR_IDLE>;
+            bindings                =   <&accent PT_CARET PT_E>
+                                    ,   <&accent PT_CARET LS(PT_E)>;
+            hold-trigger-on-release;
         };
 
         i_acute: i_acute {
-            compatible      =   "zmk,behavior-mod-morph";
-            label           =   "I_ACUTE";
-            #binding-cells  =   <0>;
-            mods            =   <(MOD_LSFT|MOD_RSFT)>;
-            bindings        =   <&accent PT_ACUTE PT_I>
-                            ,   <&accent PT_ACUTE LS(PT_I)>;
+            compatible              =   "zmk,behavior-mod-morph";
+            label                   =   "I_ACUTE";
+            #binding-cells          =   <2>;
+            mods                    =   <(MOD_LSFT|MOD_RSFT)>;
+            flavor                  =   "balanced";
+            tapping-term-ms         =   <HM_TAPPING_TERM>;
+            quick-tap-ms            =   <175>;
+            require-prior-idle-ms   =   <HM_PRIOR_IDLE>;
+            bindings                =   <&accent PT_ACUTE PT_I>
+                                    ,   <&accent PT_ACUTE LS(PT_I)>;
+            hold-trigger-on-release;
         };
 
         o_tilde: o_tilde {
-            compatible      =   "zmk,behavior-mod-morph";
-            label           =   "O_TILDE";
-            #binding-cells  =   <0>;
-            mods            =   <(MOD_LSFT|MOD_RSFT)>;
-            bindings        =   <&accent PT_TILDE PT_O>
-                            ,   <&accent PT_TILDE LS(PT_O)>;
+            compatible              =   "zmk,behavior-mod-morph";
+            label                   =   "O_TILDE";
+            #binding-cells          =   <2>;
+            mods                    =   <(MOD_LSFT|MOD_RSFT)>;
+            flavor                  =   "balanced";
+            tapping-term-ms         =   <HM_TAPPING_TERM>;
+            quick-tap-ms            =   <175>;
+            require-prior-idle-ms   =   <HM_PRIOR_IDLE>;
+            bindings                =   <&accent PT_TILDE PT_O>
+                                    ,   <&accent PT_TILDE LS(PT_O)>;
+            hold-trigger-on-release;
         };
 
         o_acute: o_acute {
-            compatible      =   "zmk,behavior-mod-morph";
-            label           =   "O_ACUTE";
-            #binding-cells  =   <0>;
-            mods            =   <(MOD_LSFT|MOD_RSFT)>;
-            bindings        =   <&accent PT_ACUTE PT_O>
-                            ,   <&accent PT_ACUTE LS(PT_O)>;
+            compatible              =   "zmk,behavior-mod-morph";
+            label                   =   "O_ACUTE";
+            #binding-cells          =   <2>;
+            mods                    =   <(MOD_LSFT|MOD_RSFT)>;
+            flavor                  =   "balanced";
+            tapping-term-ms         =   <HM_TAPPING_TERM>;
+            quick-tap-ms            =   <175>;
+            require-prior-idle-ms   =   <HM_PRIOR_IDLE>;
+            bindings                =   <&accent PT_ACUTE PT_O>
+                                    ,   <&accent PT_ACUTE LS(PT_O)>;
+            hold-trigger-on-release;
         };
 
         o_circ: o_circ {
-            compatible      =   "zmk,behavior-mod-morph";
-            label           =   "O_CIRC";
-            #binding-cells  =   <0>;
-            mods            =   <(MOD_LSFT|MOD_RSFT)>;
-            bindings        =   <&accent PT_CARET PT_O>
-                            ,   <&accent PT_CARET LS(PT_O)>;
+            compatible              =   "zmk,behavior-mod-morph";
+            label                   =   "O_CIRC";
+            #binding-cells          =   <2>;
+            mods                    =   <(MOD_LSFT|MOD_RSFT)>;
+            flavor                  =   "balanced";
+            tapping-term-ms         =   <HM_TAPPING_TERM>;
+            quick-tap-ms            =   <175>;
+            require-prior-idle-ms   =   <HM_PRIOR_IDLE>;
+            bindings                =   <&accent PT_CARET PT_O>
+                                    ,   <&accent PT_CARET LS(PT_O)>;
+            hold-trigger-on-release;
         };
 
         u_acute: u_acute {
-            compatible      =   "zmk,behavior-mod-morph";
-            label           =   "U_ACUTE";
-            #binding-cells  =   <0>;
-            mods            =   <(MOD_LSFT|MOD_RSFT)>;
-            bindings        =   <&accent PT_ACUTE PT_U>
-                            ,   <&accent PT_ACUTE LS(PT_U)>;
+            compatible              =   "zmk,behavior-mod-morph";
+            label                   =   "U_ACUTE";
+            #binding-cells          =   <2>;
+            mods                    =   <(MOD_LSFT|MOD_RSFT)>;
+            flavor                  =   "balanced";
+            tapping-term-ms         =   <HM_TAPPING_TERM>;
+            quick-tap-ms            =   <175>;
+            require-prior-idle-ms   =   <HM_PRIOR_IDLE>;
+            bindings                =   <&accent PT_ACUTE PT_U>
+                                    ,   <&accent PT_ACUTE LS(PT_U)>;
+            hold-trigger-on-release;
         };
     };
 
@@ -221,12 +267,11 @@
             label = "AccentsRight";
             bindings = <
                 //    ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮   ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
-                &none   &none           &none           &none           &none           &kp PT_TILDE        &kp PT_TILDE    &none           &none           &o_tilde        &none           &none
+                &none   &a_tilde        &none           &none           &none           &kp PT_TILDE        &kp PT_TILDE    &none           &none           &o_tilde        &none           &none
                 //    ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-                &none   &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &none               &none           &u_acute        &i_acute        &o_acute        &none           &none
-//                &none   &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &kp PT_ACUTE        &kp PT_ACUTE    &hmr RSHFT u_acute  &hmr RCTRL i_acute  &hmr RALT o_acute   &kp RGUI    &none
+                &none   &a_acute LGUI 0 &a_grave LALT 0 &e_acute LCTRL 0    &kp LSHFT   &kp PT_ACUTE        &kp PT_ACUTE    &u_acute RSHFT 0  &i_acute RCTRL 0  &o_acute RALT 0 &kp RGUI    &none
                 //    ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-                &none   &none           &none           &none           &kp PT_GRAVE    &kp PT_CARET        &kp PT_CARET    &kp PT_GRAVE    &none           &o_circ         &none           &none
+                &none   &a_circ         &none           &e_circ         &kp PT_GRAVE    &kp PT_CARET        &kp PT_CARET    &kp PT_GRAVE    &none           &o_circ         &none           &none
                 //    ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
                                                         &none           &none           &none               &none           &none           &none
                 //                                    ╰───────────────┴───────────────┴───────────────╯   ╰───────────────┴───────────────┴───────────────╯
@@ -305,7 +350,6 @@
                 &none   &a_tilde        &none           &none           &none           &kp PT_TILDE        &kp PT_TILDE    &none           &none           &none           &none           &none
                 //    ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
                 &none   &a_acute        &a_grave        &e_acute        &none           &none               &none           &kp RSHFT       &kp RCTRL       &kp RALT        &kp RGUI        &none
-//                &none  &hml LGUI a_acute    &hml LALT a_grave   &hml LCTRL e_acute      &kp LSHFT   &kp PT_ACUTE    &kp PT_ACUTE    &kp RSHFT   &kp RCTRL   &kp RALT        &kp RGUI        &none
                 //    ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
                 &none   &a_circ         &none           &e_circ         &kp PT_GRAVE    &kp PT_CARET        &kp PT_CARET    &kp PT_GRAVE    &none           &none           &none           &none
                 //    ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
