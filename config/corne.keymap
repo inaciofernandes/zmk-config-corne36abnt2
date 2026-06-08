@@ -23,7 +23,8 @@
 #define SYMB  4                         //  Símbolos
 #define FUNC  5                         //  Funções
 #define BLTH  6                         //  Bluetooth e funções de conectividade sem fio
-#define WXYZ  7                         //  Camada reserva
+#define MOUS  7                         //  Mouse keys e funções de controle de cursor
+#define WXYZ  8                         //  Camada reserva
 
 // Behavior configuration
 &mt {
@@ -190,7 +191,7 @@
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         &none &hm LGUI PT_A   &hm LALT PT_S   &hm LCTRL PT_D  &hm LSHFT PT_F  &kp PT_G          &kp PT_H        &hm RSHFT PT_J  &hm RCTRL PT_K  &hm RALT PT_L   &hm RGUI PT_C_CEDILLA &none
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-        &none &kp PT_Z        &kp PT_X        &kp PT_C        &kp PT_V        &kp PT_B          &kp PT_N        &kp PT_M        &kp PT_COMMA    &kp PT_DOT      &kp PT_SLASH  &none
+        &none &lt MOUS PT_Z   &kp PT_X        &kp PT_C        &kp PT_V        &kp PT_B          &kp PT_N        &kp PT_M        &kp PT_COMMA    &kp PT_DOT      &kp PT_SLASH  &none
         //  ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
         //                                      &lt ACCN ESC    &lt NAVI SPACE  &lt NUMB TAB      &lt SYMB RET    &lt FUNC BSPC   &lt ACCN DEL
                                               &lt ACCN ESC    &lt NAVI SPACE  &lt NUMB TAB      &lt SYMB RET    &lt FUNC BSPC   &mo BLTH
@@ -221,7 +222,7 @@
     //  NAVI  - 2 - Navegação
     //  ---------------------------------------------------------------
     navi_layer {
-      display-name  = "NAVI";
+      display-name  = "NAVIGATE";
       label         = "Navigation";
       bindings      = <
         //  ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮ ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
@@ -240,7 +241,7 @@
     //  NUMB  - 3 - Números e símbolos de fácil acesso
     //  ---------------------------------------------------------------
     numb_layer {
-      display-name  = "NUMB";
+      display-name  = "NUMBERS";
       label         = "Numbers";
       bindings      = <
         //  ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮ ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
@@ -259,7 +260,7 @@
     //  SYMB  - 4 - Símbolos
     //  ---------------------------------------------------------------
     symb_layer {
-      display-name  = "SYMB";
+      display-name  = "SYMBOLS";
       label         = "Symbols";
       bindings      = <
         //  ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮ ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
@@ -297,8 +298,8 @@
     //  BLTH  - 6 - Bluetooth e funções de conectividade sem fio
     //  ---------------------------------------------------------------
     blth_layer {
-      display-name  = "BLTH";
-      label         = "Reservado";
+      display-name  = "BLUETOOTH";
+      label         = "Bluetooth";
       bindings      = <
         //  ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮ ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
         &none &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4      &out OUT_TOG    &bt BT_CLR      &bt BT_PRV      &bt BT_NXT      &none         &none
@@ -313,11 +314,11 @@
     };
 
     //  ---------------------------------------------------------------
-    //  WXYZ  - 7 - Camada reserva
+    //  MOUS  - 7 - Mouse keys e funções de controle de cursor
     //  ---------------------------------------------------------------
-    wxyz_layer {
-      display-name  = "WXYZ";
-      label         = "Reservado";
+    mous_layer {
+      display-name  = "MOUSE";
+      label         = "Mouse";
       bindings      = <
         //  ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮ ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
         &none &none           &none           &none           &none           &none             &none           &none           &none           &none           &none         &none
@@ -325,6 +326,25 @@
         &none &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &none             &none           &kp RSHFT       &kp RCTRL       &kp RALT        &kp RGUI      &none
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         &none &none           &none           &none           &none           &none             &none           &none           &none           &none           &none         &none
+        //  ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
+                                              &none           &none           &none             &none           &none           &none
+        //                                  ╰───────────────┴───────────────┴───────────────╯ ╰───────────────┴───────────────┴───────────────╯
+      >;
+    };
+
+    //  ---------------------------------------------------------------
+    //  WXYZ  - 8 - Camada reserva
+    //  ---------------------------------------------------------------
+    wxyz_layer {
+      display-name  = "WXYZ";
+      label         = "Reservado";
+      bindings      = <
+        //  ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮ ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
+        &none &none           &none           &none           &none           &none             &kp K_REDO      &msc SCROLL_DOWN &msc SCROLL_UP &none           &kp K_UNDO      &none
+        //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
+        &none &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &none             &none           &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP    &mmv MOVE_RIGHT &none
+        //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
+        &none &none           &none           &none           &none           &none             &none           &mcl LCLK       &mcl RCLK       &mcl MCLK       &none           &none
         //  ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
                                               &none           &none           &none             &none           &none           &none
         //                                  ╰───────────────┴───────────────┴───────────────╯ ╰───────────────┴───────────────┴───────────────╯
