@@ -27,17 +27,16 @@
 #define MOUS  7                         //  Mouse keys e funções de controle de cursor
 #define WXYZ  8                         //  Camada reserva
 
-// Behavior configuration
-
-&mt {
-    tapping-term-ms = <HM_TAPPING_TERM>;
-    flavor = "tap-preferred";
-};
-
-&lt {
-    tapping-term-ms = <HM_TAPPING_TERM>;
-    flavor = "tap-preferred";
-};
+//  //  //-// Behavior configuration
+//  //  //&mt {
+//  //  //    tapping-term-ms = <HM_TAPPING_TERM>;
+//  //  //    flavor = "tap-preferred";
+//  //  //};
+//  //  //
+//  //  //&lt {
+//  //  //    tapping-term-ms = <HM_TAPPING_TERM>;
+//  //  //    flavor = "tap-preferred";
+//  //  //};
 
 / {
     combos {
@@ -45,7 +44,7 @@
 
         combo_caps_word {
             bindings = <&caps_word>;
-            key-positions = <14 17>;      //  F e J no mapa nativo de 36 teclas
+            key-positions = <12 19>;      //  F e J no mapa nativo de 36 teclas
         };
     };
 
@@ -174,13 +173,13 @@
         compatible = "zmk,conditional-layers";
 
         bluetooth_layer {
-            if-layers = <5 1>;
-            then-layer = <6>;
+            if-layers   = <5 1>;  //  Ativa a camada Bluetooth quando FUNC e ACCN estão ativas
+            then-layer  = <6>;
         };
 
         mouse_layer {
-            if-layers = <1 2>;
-            then-layer = <7>;
+            if-layers   = <1 2>;  //  Ativa a camada Mouse quando ACCN e NAVI estão ativas
+            then-layer  = <7>;
         };
     };
 
