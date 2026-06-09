@@ -180,13 +180,13 @@
     compatible    = "zmk,conditional-layers";
     
     bluetooth_layer {
-      if-layers   = <NUMB SYMB>;
-      then-layer  = <BLTH>;
+      if-layers   = <NUMBERS SYMBOLS>;
+      then-layer  = <BLUETOOTH>;
     };
     
     mouse_layer {
-      if-layers   = <ACCN NAVI>;
-      then-layer  = <MOUS>;
+      if-layers   = <ACCENTS NAVIGATE>;
+      then-layer  = <MOUSE >;
     };
   };
 
@@ -205,7 +205,7 @@
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         &none &hm LGUI PT_A   &hm LALT PT_S   &hm LCTRL PT_D  &hm LSHFT PT_F  &kp PT_G          &kp PT_H        &hm RSHFT PT_J  &hm RCTRL PT_K  &hm RALT PT_L   &hm RGUI PT_C_CEDILLA &none
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-        &none &lt MOUS PT_Z   &kp PT_X        &kp PT_C        &kp PT_V        &kp PT_B          &kp PT_N        &kp PT_M        &kp PT_COMMA    &kp PT_DOT      &kp PT_SLASH  &none
+        &none &kp PT_Z        &kp PT_X        &kp PT_C        &kp PT_V        &kp PT_B          &kp PT_N        &kp PT_M        &kp PT_COMMA    &kp PT_DOT      &kp PT_SLASH  &none
         //  ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
                                               &lt ACCN ESC    &lt NAVI SPACE  &lt NUMB TAB      &lt SYMB RET    &lt FUNC BSPC   &lt ACCN DEL
 //                                              &lt ACCN ESC    &lt NAVI SPACE  &lt NUMB TAB      &lt SYMB RET    &lt FUNC BSPC   &mo BLTH
