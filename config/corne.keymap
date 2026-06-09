@@ -23,7 +23,7 @@
 #define SYMB  4                         //  Símbolos
 #define FUNC  5                         //  Funções
 #define BLTH  6                         //  Bluetooth e funções de conectividade sem fio
-//#define MOUS  7                         //  Mouse keys e funções de controle de cursor
+#define MOUS  7                         //  Mouse keys e funções de controle de cursor
 #define WXYZ  8                         //  Camada reserva
 
 // Behavior configuration
@@ -191,8 +191,8 @@
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         &none &hm LGUI PT_A   &hm LALT PT_S   &hm LCTRL PT_D  &hm LSHFT PT_F  &kp PT_G          &kp PT_H        &hm RSHFT PT_J  &hm RCTRL PT_K  &hm RALT PT_L   &hm RGUI PT_C_CEDILLA &none
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-        &none &kp PT_Z        &kp PT_X        &kp PT_C        &kp PT_V        &kp PT_B          &kp PT_N        &kp PT_M        &kp PT_COMMA    &kp PT_DOT      &kp PT_SLASH  &none
-//        &none &lt MOUS PT_Z   &kp PT_X        &kp PT_C        &kp PT_V        &kp PT_B          &kp PT_N        &kp PT_M        &kp PT_COMMA    &kp PT_DOT      &kp PT_SLASH  &none
+//        &none &kp PT_Z        &kp PT_X        &kp PT_C        &kp PT_V        &kp PT_B          &kp PT_N        &kp PT_M        &kp PT_COMMA    &kp PT_DOT      &kp PT_SLASH  &none
+        &none &lt MOUS PT_Z   &kp PT_X        &kp PT_C        &kp PT_V        &kp PT_B          &kp PT_N        &kp PT_M        &kp PT_COMMA    &kp PT_DOT      &kp PT_SLASH  &none
         //  ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
         //                                      &lt ACCN ESC    &lt NAVI SPACE  &lt NUMB TAB      &lt SYMB RET    &lt FUNC BSPC   &lt ACCN DEL
                                               &lt ACCN ESC    &lt NAVI SPACE  &lt NUMB TAB      &lt SYMB RET    &lt FUNC BSPC   &mo BLTH
@@ -280,8 +280,8 @@
     //  FUNC  - 5 - Funções
     //  ---------------------------------------------------------------
     func_layer {
-      display-name  = "FUNC";
-      label         = "Function";
+      display-name  = "FUNCTIONS";
+      label         = "Functions";
       bindings      = <
         //  ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮ ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
         &none &kp F12         &kp F7          &kp F8          &kp F9          &kp PSCRN         &none           &none           &none           &none           &none         &none
@@ -322,11 +322,14 @@
       label         = "Mouse";
       bindings      = <
         //  ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮ ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
-        &none &none           &none           &none           &none           &none             &kp K_REDO      &msc SCROLL_DOWN &msc SCROLL_UP &none           &kp K_UNDO    &none
+        &none &none           &none           &none           &none           &none             &none           &none           &none           &none           &none         &none
+//        &none &none           &none           &none           &none           &none             &kp K_REDO      &msc SCROLL_DOWN &msc SCROLL_UP &none           &kp K_UNDO    &none
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-        &none &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &none             &none           &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP    &mmv MOVE_RIGHT &none
+        &none &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &none             &none           &kp RSHFT       &kp RCTRL       &kp RALT        &kp RGUI      &none
+//        &none &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &none             &none           &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP    &mmv MOVE_RIGHT &none
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-        &none &none           &none           &none           &none           &none             &none           &mkp LCLK       &mkp MCLK       &mkp RCLK       &none         &none
+        &none &none           &none           &none           &none           &none             &none           &none           &none           &none           &none         &none
+//        &none &none           &none           &none           &none           &none             &none           &mkp LCLK       &mkp MCLK       &mkp RCLK       &none         &none
         //  ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
                                               &none           &none           &none             &none           &none           &none
         //                                  ╰───────────────┴───────────────┴───────────────╯ ╰───────────────┴───────────────┴───────────────╯
