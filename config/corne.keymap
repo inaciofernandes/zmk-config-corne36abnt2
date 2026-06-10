@@ -49,7 +49,7 @@
 
     //  Camada do mouse:
     //  Apertar ESC (36) + SPACE (37) juntos abre a camada MOUS
-    combo_bluetooth {
+    combo_mouse {
       timeout-ms      = <50>;         //  Janela de tempo para o aperto simultâneo
       key-positions   = <36 37>;      //  Posição física das teclas ESC e SPACE
       bindings        = <&mo MOUS>;   //  Ativa temporariamente a camada Mouse
@@ -57,17 +57,17 @@
 
     //  Camada de bluetooth:
     //  Apertar BSPC (40) + DEL (41) juntos abre a Camada BLTH
-    combo_mouse {
+    combo_bluetooth {
       timeout-ms      = <50>;         //  Janela de tempo para o aperto simultâneo
       key-positions   = <40 41>;      //  Posição física das teclas BSPC e DEL
       bindings        = <&mo BLTH>;   //  Ativa temporariamente a camada Bluetooth
     };
 
     //  Camada de mídia:
-    //  Apertar ENTER (39) + BSPC (40) juntos abre a Camada MDIA
+    //  Apertar SPACE (37) + TAB (38) juntos abre a Camada MDIA
     combo_media {
       timeout-ms      = <50>;         //  Janela de tempo para o aperto simultâneo
-      key-positions   = <39 40>;      //  Posição física das teclas BSPC e DEL
+      key-positions   = <37 38>;      //  Posição física das teclas SPACE e TAB
       bindings        = <&mo MDIA>;   //  Ativa temporariamente a camada MEDIA
     };
   };
