@@ -27,16 +27,25 @@
 #define MOUS  7                         //  Mouse keys e funções de controle de cursor
 #define WXYZ  8                         //  Camada reserva
 
-//  //  //-// Behavior configuration
-//  //  //&mt {
-//  //  //    tapping-term-ms = <HM_TAPPING_TERM>;
-//  //  //    flavor = "tap-preferred";
-//  //  //};
-//  //  //
+// Behavior configuration
+&mt {
+  tapping-term-ms = <HM_TAPPING_TERM>;
+  flavor = "tap-preferred";
+};
+
 //  //  //&lt {
 //  //  //    tapping-term-ms = <HM_TAPPING_TERM>;
 //  //  //    flavor = "tap-preferred";
 //  //  //};
+
+&lt {
+  compatible            = "zmk,behavior-hold-tap";
+  #binding-cells        = <2>;
+  flavor                = "hold-preferred";
+  tapping-term-ms       = <150>;
+  quick-tap-ms          = <200>;
+  bindings              = <&mo>, <&kp>;
+};
 
 / {
   combos {
