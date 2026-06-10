@@ -41,11 +41,23 @@
 &lt {
   compatible            = "zmk,behavior-hold-tap";
   #binding-cells        = <2>;
-  flavor                = "hold-preferred";
-  tapping-term-ms       = <150>;
-  quick-tap-ms          = <200>;
+//  flavor                = "hold-preferred";
+  flavor                = "balanced";
+  tapping-term-ms       = <200>;
+  quick-tap-ms          = <175>;
   bindings              = <&mo>, <&kp>;
 };
+
+//  //  //&lt {
+//  //  //  compatible            = "zmk,behavior-hold-tap";
+//  //  //  #binding-cells        = <2>;
+//  //  //  flavor                = "balanced";       // MUDANÇA: Balanced resolve o "pulo" de dupla função
+//  //  //  tapping-term-ms       = <200>;            // MUDANÇA: Janela padrão estável para detecção
+//  //  //  quick-tap-ms          = <175>;            // MUDANÇA: Sempre menor que o tapping-term para não travar
+//  //  //  bindings              = <&mo>, <&kp>;
+//  //  //};
+
+
 
 / {
   combos {
@@ -206,18 +218,16 @@
 
     // MUDANÇA: Segurando NAVI (dedão esquerdo) + SYMB (dedão direito) abre o Bluetooth
     bluetooth_layer {
-        if-layers   = <NAVI SYMB>;  
+        if-layers   = <FUNC ACCN>;  
         then-layer  = <BLTH>;
     };
 
     // MUDANÇA: Segurando NUMB (dedão esquerdo) + SYMB (dedão direito) abre o Mouse
     mouse_layer {
-        if-layers   = <NUMB SYMB>;  
+        if-layers   = <ACCN NAVI>;  
         then-layer  = <MOUS>;
     };
   };
-
-
 
   keymap {
     compatible = "zmk,keymap";
