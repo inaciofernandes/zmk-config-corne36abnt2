@@ -65,7 +65,7 @@
 
     //  Camada de mídia:
     //  Apertar ENTER (39) + BSPC (40) juntos abre a Camada MDIA
-    combo_mouse {
+    combo_media {
       timeout-ms      = <50>;         //  Janela de tempo para o aperto simultâneo
       key-positions   = <39 40>;      //  Posição física das teclas BSPC e DEL
       bindings        = <&mo MDIA>;   //  Ativa temporariamente a camada MEDIA
