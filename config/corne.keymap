@@ -60,14 +60,41 @@
 
 
 / {
+//  //  //  combos {
+//  //  //    compatible        = "zmk,combos";
+//  //  //
+//  //  //    combo_caps_word {
+//  //  //      bindings        = <&caps_word>;
+//  //  //      key-positions   = <16 19>;      //  F e J no mapa nativo de 36 teclas
+//  //  //    };
+//  //  //  };
+
   combos {
     compatible        = "zmk,combos";
 
     combo_caps_word {
       bindings        = <&caps_word>;
-      key-positions   = <16 19>;      //  F e J no mapa nativo de 36 teclas
+      key-positions   = <16 19>;      //  F e J
+    };
+
+    //  Camada de bluetooth:
+    //  Apertar ESC (36) + SPACE (37) juntos abre a camada BLTH
+    combo_bluetooth {
+      timeout-ms      = <50>;         //  Janela de tempo para o aperto simultâneo
+      key-positions   = <36 37>;      //  Posição física das teclas ESC e SPACE
+      bindings        = <&mo BLTH>;   //  Ativa temporariamente a camada Bluetooth
+    };
+
+    //  Camada do mouse:
+    //  Apertar BSPC (40) + DEL (41) juntos abre a Camada 7
+    combo_mouse {
+      timeout-ms = <50>;              //  Janela de tempo para o aperto simultâneo
+      key-positions = <40 41>;        //  Posição física das teclas BSPC e DEL
+      bindings = <&mo MOUS>;          //  Ativa temporariamente a camada Mouse
     };
   };
+
+
 
   macros {
     accent: acute {
@@ -212,22 +239,22 @@
 
 
 
-  //  Configuração de camadas condicionais (tri-Layer)
-  conditional_layers {
-    compatible = "zmk,conditional-layers";
-
-    // MUDANÇA: Segurando NAVI (dedão esquerdo) + SYMB (dedão direito) abre o Bluetooth
-    bluetooth_layer {
-        if-layers   = <SYMB FUNC>;
-        then-layer  = <BLTH>;
-    };
-
-    // MUDANÇA: Segurando NUMB (dedão esquerdo) + SYMB (dedão direito) abre o Mouse
-    mouse_layer {
-        if-layers   = <NAVI NUMB>;
-        then-layer  = <MOUS>;
-    };
-  };
+//  //  //  //  Configuração de camadas condicionais (tri-Layer)
+//  //  //  conditional_layers {
+//  //  //    compatible = "zmk,conditional-layers";
+//  //  //
+//  //  //    // MUDANÇA: Segurando NAVI (dedão esquerdo) + SYMB (dedão direito) abre o Bluetooth
+//  //  //    bluetooth_layer {
+//  //  //        if-layers   = <SYMB FUNC>;
+//  //  //        then-layer  = <BLTH>;
+//  //  //    };
+//  //  //
+//  //  //    // MUDANÇA: Segurando NUMB (dedão esquerdo) + SYMB (dedão direito) abre o Mouse
+//  //  //    mouse_layer {
+//  //  //        if-layers   = <NAVI NUMB>;
+//  //  //        then-layer  = <MOUS>;
+//  //  //    };
+//  //  //  };
 
   keymap {
     compatible = "zmk,keymap";
