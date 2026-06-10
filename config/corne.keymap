@@ -218,13 +218,13 @@
 
     // MUDANÇA: Segurando NAVI (dedão esquerdo) + SYMB (dedão direito) abre o Bluetooth
     bluetooth_layer {
-        if-layers   = <FUNC ACCN>;  
+        if-layers   = <SYMB FUNC>;
         then-layer  = <BLTH>;
     };
 
     // MUDANÇA: Segurando NUMB (dedão esquerdo) + SYMB (dedão direito) abre o Mouse
     mouse_layer {
-        if-layers   = <ACCN NAVI>;  
+        if-layers   = <NAVI NUMB>;
         then-layer  = <MOUS>;
     };
   };
