@@ -183,20 +183,41 @@
     };
   };
 
+//  //  //  //  Configuração de camadas condicionais (tri-Layer)
+//  //  //  conditional_layers {
+//  //  //    compatible = "zmk,conditional-layers";
+//  //  //
+//  //  //    bluetooth_layer {
+//  //  //        if-layers   = <5 1>;  //  Ativa a camada Bluetooth quando FUNC e ACCN estão ativas
+//  //  //        then-layer  = <6>;
+//  //  //    };
+//  //  //
+//  //  //    mouse_layer {
+//  //  //        if-layers   = <1 2>;  //  Ativa a camada Mouse quando ACCN e NAVI estão ativas
+//  //  //        then-layer  = <7>;
+//  //  //    };
+//  //  //  };
+
+
+
   //  Configuração de camadas condicionais (tri-Layer)
   conditional_layers {
     compatible = "zmk,conditional-layers";
 
+    // MUDANÇA: Segurando NAVI (dedão esquerdo) + SYMB (dedão direito) abre o Bluetooth
     bluetooth_layer {
-        if-layers   = <5 1>;  //  Ativa a camada Bluetooth quando FUNC e ACCN estão ativas
-        then-layer  = <6>;
+        if-layers   = <NAVI SYMB>;  
+        then-layer  = <BLTH>;
     };
 
+    // MUDANÇA: Segurando NUMB (dedão esquerdo) + SYMB (dedão direito) abre o Mouse
     mouse_layer {
-        if-layers   = <1 2>;  //  Ativa a camada Mouse quando ACCN e NAVI estão ativas
-        then-layer  = <7>;
+        if-layers   = <NUMB SYMB>;  
+        then-layer  = <MOUS>;
     };
   };
+
+
 
   keymap {
     compatible = "zmk,keymap";
