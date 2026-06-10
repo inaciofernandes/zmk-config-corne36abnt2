@@ -24,7 +24,8 @@
 #define FUNC  5                         //  Funções
 #define BLTH  6                         //  Bluetooth e funções de conectividade sem fio
 #define MOUS  7                         //  Mouse keys e funções de controle de cursor
-#define WXYZ  8                         //  Camada reserva
+#define MDIA  8                         //  Ativa a camada de mídia
+#define WXYZ  9                         //  Camada reserva
 
 // Behavior configuration
 &mt {
@@ -60,6 +61,14 @@
       timeout-ms      = <50>;         //  Janela de tempo para o aperto simultâneo
       key-positions   = <40 41>;      //  Posição física das teclas BSPC e DEL
       bindings        = <&mo BLTH>;   //  Ativa temporariamente a camada Bluetooth
+    };
+
+    //  Camada de mídia:
+    //  Apertar ENTER (39) + BSPC (40) juntos abre a Camada MDIA
+    combo_mouse {
+      timeout-ms      = <50>;         //  Janela de tempo para o aperto simultâneo
+      key-positions   = <39 40>;      //  Posição física das teclas BSPC e DEL
+      bindings        = <&mo MDIA>;   //  Ativa temporariamente a camada MEDIA
     };
   };
 
@@ -355,6 +364,25 @@
         &none &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &none             &none           &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP    &mmv MOVE_RIGHT &none
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         &none &none           &none           &none           &none           &none             &none           &mkp LCLK       &mkp MCLK       &mkp RCLK       &none         &none
+        //  ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
+                                              &none           &none           &none             &none           &none           &none
+        //                                  ╰───────────────┴───────────────┴───────────────╯ ╰───────────────┴───────────────┴───────────────╯
+      >;
+    };
+
+
+
+
+    media_layer {
+      display-name  = "MEDIA";
+      label         = "Media";
+      bindings      = <
+        //  ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮ ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
+        &none &none           &none           &none           &none           &none             &none           &none           &kp C_BRI_DN    &kp C_BRI_UP    &none         &none
+        //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
+        &none &none           &none           &none           &none           &none             &kp C_PLAY_PAUSE  &kp C_PREV    &kp C_VOL_DN    &kp C_VOL_UP    &kp C_NEXT    &none
+        //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
+        &none &none           &none           &none           &none           &none             &none           &kp C_MUTE	    &none           &none           &none         &none
         //  ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
                                               &none           &none           &none             &none           &none           &none
         //                                  ╰───────────────┴───────────────┴───────────────╯ ╰───────────────┴───────────────┴───────────────╯
