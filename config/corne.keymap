@@ -48,10 +48,10 @@
     };
 
     //  Camada do mouse:
-    //  Apertar ESC (36) + SPACE (37) juntos abre a camada MOUS
+    //  Apertar ESC (36) + TAB (37) juntos abre a camada MOUS
     combo_mouse {
       timeout-ms      = <50>;         //  Janela de tempo para o aperto simultâneo
-      key-positions   = <36 37>;      //  Posição física das teclas ESC e SPACE
+      key-positions   = <36 37>;      //  Posição física das teclas ESC e TAB
       bindings        = <&mo MOUS>;   //  Ativa temporariamente a camada Mouse
     };
 
@@ -64,10 +64,10 @@
     };
 
     //  Camada de mídia:
-    //  Apertar SPACE (37) + TAB (38) juntos abre a Camada MDIA
+    //  Apertar TAB (37) + SPACE (38) juntos abre a Camada MDIA
     combo_media {
       timeout-ms      = <50>;         //  Janela de tempo para o aperto simultâneo
-      key-positions   = <37 38>;      //  Posição física das teclas SPACE e TAB
+      key-positions   = <37 38>;      //  Posição física das teclas TAB e SPACE
       bindings        = <&mo MDIA>;   //  Ativa temporariamente a camada MEDIA
     };
   };
@@ -198,23 +198,6 @@
     };
   };
 
-//  //  Configuração de camadas condicionais (tri-Layer)
-//  conditional_layers {
-//    compatible = "zmk,conditional-layers";
-//
-//    // MUDANÇA: Segurando NAVI (dedão esquerdo) + SYMB (dedão direito) abre o Bluetooth
-//    bluetooth_layer {
-//        if-layers   = <SYMB FUNC>;
-//        then-layer  = <BLTH>;
-//    };
-//
-//    // MUDANÇA: Segurando NUMB (dedão esquerdo) + SYMB (dedão direito) abre o Mouse
-//    mouse_layer {
-//        if-layers   = <NAVI NUMB>;
-//        then-layer  = <MOUS>;
-//    };
-//  };
-
   keymap {
     compatible = "zmk,keymap";
 
@@ -232,7 +215,7 @@
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         &none &kp PT_Z        &kp PT_X        &kp PT_C        &kp PT_V        &kp PT_B          &kp PT_N        &kp PT_M        &kp PT_COMMA    &kp PT_DOT      &kp PT_SEMI   &none
         //  ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
-                                              &lt ACCN ESC    &lt NAVI PT_SPACE &lt NUMB TAB      &lt SYMB RET    &lt FUNC BSPC   &lt ACCN DEL
+                                              &lt ACCN ESC    &lt NAVI TAB    &lt NUMB SPACE    &lt SYMB RET    &lt FUNC BSPC   &lt ACCN DEL
         //                                  ╰───────────────┴───────────────┴───────────────╯ ╰───────────────┴───────────────┴───────────────╯
       >;
     };
@@ -247,11 +230,10 @@
         //  ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮ ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
         &none &a_tilde        &none           &none           &none           &kp PT_TILDE      &kp PT_TILDE    &none           &none           &o_tilde        &none         &none
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-        &none &a_acute        &a_grave        &e_acute        &kp LSHFT       &none             &none           &u_acute        &i_acute        &o_acute        &none         &none
+        &none &a_acute        &a_grave        &e_acute        &kp LSHFT       &kp PT_ACUTE      &kp PT_ACUTE    &u_acute        &i_acute        &o_acute        &none         &none
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         &none &a_circ         &none           &e_circ         &kp PT_GRAVE    &kp PT_CARET      &kp PT_CARET    &kp PT_GRAVE    &none           &o_circ         &none         &none
         //  ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
-//                                              &none           &none           &none             &none           &none           &none
                                               &kp ESC         &kp SPACE       &kp TAB           &kp RET         &kp BSPC        &kp DEL
         //                                  ╰───────────────┴───────────────┴───────────────╯ ╰───────────────┴───────────────┴───────────────╯
       >;
@@ -271,7 +253,7 @@
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         &none &none           &none           &none           &none           &none             &kp INS         &kp HOME        &kp PG_DN       &kp PG_UP       &kp END       &none
         //  ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
-                                                &kp ESC         &kp SPACE       &kp TAB           &kp RET         &kp BSPC        &kp DEL
+                                              &kp ESC         &kp SPACE       &kp TAB           &kp RET         &kp BSPC        &kp DEL
         //                                  ╰───────────────┴───────────────┴───────────────╯ ╰───────────────┴───────────────┴───────────────╯
       >;
     };
@@ -284,17 +266,12 @@
       label         = "Numbers";
       bindings      = <
         //  ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮ ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
-//        &none &none           &none           &none           &none           &none             &kp PT_LBKT     &kp PT_N7       &kp PT_N8       &kp PT_N9       &kp PT_RBKT   &none
-        &none &none           &none           &none           &none           &none             &kp PT_PLUS     &kp PT_N7       &kp PT_N8       &kp PT_N9       &kp PT_ASTRK  &none
+        &none &none           &none           &none           &none           &none             &kp PT_PLUS     &kp PT_N7       &kp PT_N8       &kp ;PT_N9       &kp PT_ASTRK &none
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-//        &none &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &none             &kp PT_SLASH    &kp PT_N4       &kp PT_N5       &kp PT_N6       &kp PT_EQUAL  &none
         &none &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &none             &kp PT_MINUS    &kp PT_N4       &kp PT_N5       &kp PT_N6       &kp PT_SLASH  &none
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-//        &none &none           &none           &none           &none           &none             &kp PT_GRAVE    &kp PT_N1       &kp PT_N2       &kp PT_N3       &kp PT_BSLH   &none
         &none &none           &none           &none           &none           &none             &kp PT_N0       &kp PT_N1       &kp PT_N2       &kp PT_N3       &kp PT_DOT    &none
         //  ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼──────────────—┼———————————————╯
-//                                              &none           &none           &none             &kp PT_DOT      &kp PT_N0       &kp PT_MINUS
-//                                              &none           &none                             &none           &none           &none           &none
                                               &kp ESC         &kp SPACE       &kp TAB           &kp RET         &kp BSPC        &kp DEL
         //                                  ╰———————————————┴———————————————┴———————————————╯ ╰———————————————┴———————————————┴———————————————╯
       >;
@@ -308,16 +285,12 @@
       label         = "Symbols";
       bindings      = <
         //  ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮ ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
-//        &none &kp PT_LBRC     &kp PT_AMPS     &kp PT_STAR     &kp PT_LPAR     &kp PT_RBRC       &none           &none           &none           &none           &none         &none
         &none &kp PT_GRAVE    &kp PT_LT       &kp PT_GT       &kp PT_MINUS    &kp PT_PIPE       &kp PT_CARET    &kp PT_LBRC     &kp PT_RBRC     &kp PT_DLLR     &kp PT_UNDER  &none
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-//        &none &kp PT_COLON    &kp PT_DLLR     &kp PT_PRCNT    &kp PT_CARET    &kp PT_PLUS       &none           &kp RSHFT       &kp RCTRL       &kp RALT        &kp RGUI      &none
         &none &kp PT_EXCL     &kp PT_ASTRK    &kp PT_SLASH    &kp PT_EQUAL    &kp PT_AMPS       &kp PT_HASH     &kp PT_LPAR     &kp PT_RPAR     &kp PT_SEMI     &kp PT_DQT    &none
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-//        &none &kp PT_TILDE    &kp PT_EXCL     &kp PT_AT       &kp PT_HASH     &kp PT_PIPE       &none           &none           &none           &none           &none         &none
         &none &kp PT_TILDE    &kp PT_PLUS     &kp PT_LBKT     &kp PT_RBKT     &kp PT_PRCNT      &kp PT_AT       &kp PT_COLON    &kp PT_COMMA    &kp PT_DOT      &kp PT_APOS   &none
         //  ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
-//                                              &kp PT_LPAR     &kp PT_RPAR     &kp PT_UNDER      &none           &none           &none
                                               &kp ESC         &kp SPACE       &kp TAB           &kp RET         &kp BSPC        &kp DEL
         //                                  ╰───────────────┴───────────────┴───────────────╯ ╰───────────────┴───────────────┴───────────────╯
       >;
@@ -337,7 +310,6 @@
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         &none &kp F10         &kp F1          &kp F2          &kp F3          &kp PAUSE_BREAK   &none           &none           &none           &none           &none         &none
         //  ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
-//                                              &kp K_APP       &kp SPACE       &kp TAB           &none           &none           &none
                                               &kp ESC         &kp SPACE       &kp TAB           &kp RET         &kp BSPC        &kp DEL
         //                                  ╰───────────────┴───────────────┴───────────────╯ ╰───────────────┴───────────────┴───────────────╯
       >;
@@ -351,9 +323,9 @@
       label         = "Bluetooth";
       bindings      = <
         //  ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮ ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
-        &none &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4      &out OUT_TOG    &bt BT_CLR      &bt BT_PRV      &bt BT_NXT      &none         &none
+        &none &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4      &none           &none           &none           &none           &none         &none
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-        &none &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &none             &none           &kp RSHFT       &kp RCTRL       &kp RALT        &kp RGUI      &none
+        &none &out OUT_TOG    &bt BT_CLR      &bt BT_PRV      &bt BT_NXT      &none             &none           &kp RSHFT       &kp RCTRL       &kp RALT        &kp RGUI      &none
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         &none &none           &none           &none           &none           &none             &none           &none           &none           &none           &none         &none
         //  ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯

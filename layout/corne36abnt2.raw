@@ -1,0 +1,97 @@
+[
+  {
+    t:"#0000aa\n#aa00aa\n#aa0000\n#777777\n#000000\n#000000\n#ff0000\n#0000ff\n#000000\n#000000\n#777777\n#000000",
+    a:0,
+    fa:[2,2,2,2,1,1,2,2,2,5,2,2]
+  },
+  "\nF12\nbt0\n\n\n\n`\nã\n\nQ\n\n",
+  "\nF8\nbt1\n\n\n\n<\n\n\nW\n\n",
+  "\nF9\nbt2\n\n\n\n>\n\n\nE\n\n",
+  "\nF10\nbt3\n\n\n\n-\n\n\nR\n\n",
+  "\n<i class='fa fa-camera'></i>\nbt4\n\n\n\n|\n~\n\nT\n\n",
+  {x:3},
+  "+\n\nredo\n<i class='fa fa-repeat'></i>\n\n\n^\n~\n\nY\n\n",
+  "7\n\nsc dw\n<i class='fa fa-paste'></i>\n\n\n{\n\n\nU\n\n",
+  "8\n\nsc up\n<i class='fa fa-copy'></i>\n\n\n}\n\n\nI\n\n",
+  "9\n\n\n<i class='fa fa-cut'></i>\n\n\n$\nõ\n\nO\n\n",
+  "*\n\nundo\n<i class='fa fa-undo'></i>\n\n\n_\n\n\nP\n\n"
+],
+[
+  {
+    t:"#0000aa\n#aa00aa\n#aa0000\n#777777\n#000000\n#000000\n#ff0000\n#0000ff\n#000000\n#000000\n#777777\n#000000",
+    a:0,
+    fa:[2,2,2,2,1,1,2,2,2,5,2,2]
+  },
+  "\nF11\nout tog\n\n\n\n!\ná\n\nA\n\n<i class='kb kb-logo-linux-tux-ibm'></i>",
+  "\nF4\nbt clr\n\n\n\n*\nà\n\nS\n\nAlt",
+  "\nF5\nbt prv\n\n\n\n/\né\n\nD\n\nControl",
+  "\nF6\nbt nxt\n\n\n\n=\n\n\nF\n\nShift",
+  "\n<i class='mss mss-Unicode-Scroll-3'></i>\n\n\n\n\n&\n´\n\nG\n\n",
+  {x:3},
+  "-\n\n\ncaps\n\n\n#\n´\n\nH\n\n",
+  "4\n\n<i class='fa fa-arrow-circle-left'></i>\n<i class='fa fa-arrow-left'></i>\n\n\n(\nú\n\nJ\n\nShift",
+  "5\n\n<i class='fa fa-arrow-circle-down'></i>\n<i class='fa fa-arrow-down'></i>\n\n\n)\ní\n\nK\n\nControl",
+  "6\n\n<i class='fa fa-arrow-circle-up'></i>\n<i class='fa fa-arrow-up'></i>\n\n\n;\nó\n\nL\n\nAlt",
+  "/\n\n<i class='fa fa-arrow-circle-right'></i>\n<i class='fa fa-arrow-right'></i>\n\n\n\"\n\n\nÇ\n\n<i class='kb kb-logo-linux-tux-ibm'></i>"
+],
+[
+  {
+    t:"#0000aa\n#aa00aa\n#aa0000\n#777777\n#000000\n#000000\n#ff0000\n#0000ff\n#000000\n#000000\n#777777\n#000000",
+    a:0,
+    fa:[2,2,2,2,1,1,2,2,2,5,2,2]
+  },
+  "\nF10\n\n\n\n\n~\nâ\n\nZ\n\n",
+  "\nF1\n\n\n\n\n+\n\n\nX\n\n",
+  "\nF2\n\n\n\n\n[\nê\n\nC\n\n",
+  "\nF3\n\n\n\n\n]\n`\n\nV\n\n",
+  "\n<i class='fa fa-pause'></i>\n\n\n\n\n%\n^\n\nB\n\n",
+  {x:3},
+  "0\n\n\nins\n\n\n@\n^\n\nN\n\n",
+  "1\n\nlc\nhome\n\n\n:\n`\n\nM\n\n",
+  "2\n\nmc\npg dn\n\n\n,\n\n<\n,\n\n",
+  "3\n\nrc\npg up\n\n\n.\nô\n>\n.\n\n",
+  ".\n\n\nendI\n\n\n'\n\n:\n;\n\n"
+],
+[
+  {
+    x:3,
+    t:"#0000aa\n#aa00aa\n#aa0000\n#777777\n#000000\n#000000\n#ff0000\n#0000ff\n#000000\n#000000\n#000000\n#0000ff",
+    a:0,
+    fa:[2,2,2,2,1,1,2,2,2,3,2,2]
+  },
+  "\n\n<i class='fa fa-mouse-pointer'></i>\n\n\n\n\n\n\nESC\n\nACCN",
+  {
+    t:"#aa0000\n#aa00aa\n#aa0000\n#777777\n#000000\n#000000\n#ff0000\n#0000ff\n#000000\n#000000\n#000000\n#777777",
+    a:0,
+    fa:[2,2,2,2,1,1,2,2,2,3,2,2]
+  },
+
+  "<i class='fa fa-mouse-pointer'></i>\n\n<i class='kb kb-Multimedia-Play-Pause'></i>\n\n\n\n\n\n\nTab\n\nNAVI",
+  {
+    h:1.5,
+    t:"#0000aa\n#aa00aa\n#aa0000\n#777777\n#000000\n#000000\n#ff0000\n#0000ff\n#000000\n#000000\n#000000\n#0000aa",
+    a:0,
+    fa:[2,2,2,2,1,1,2,2,2,3,2,2]
+  },
+  "<i class='kb kb-Multimedia-Play-Pause'></i></i>\n\n\n\n\n\n\n\n\nSpace\n\nNUMB",
+  {
+    x:1,
+    h:1.5,
+    t:"#0000aa\n#aa00aa\n#aa0000\n#777777\n#000000\n#000000\n#ff0000\n#0000ff\n#000000\n#000000\n#000000\n#ff0000",
+    a:0,
+    fa:[2,2,2,2,1,1,2,2,2,3,2,2]
+  },
+  "\n\n\n\n\n\n\n\n\nEnter\n\nSYMB",
+  {
+    t:"#0000aa\n#aa00aa\n#aa0000\n#777777\n#000000\n#000000\n#ff0000\n#0000ff\n#000000\n#000000\n#000000\n#aa00aa",
+    a:0,
+    fa:[2,2,2,2,1,1,2,2,2,3,2,2]
+  },
+  "\n\n<i class='fa fa-wifi'></i>\n\n\n\n\n\n\n<i class='mss mss-Unicode-BackSpace-DeleteLeft-Big-2'></i>\n\nFUNC",
+  {
+    t:"#aa0000\n#aa00aa\n#aa0000\n#777777\n#000000\n#000000\n#ff0000\n#0000ff\n#000000\n#000000\n#000000\n#0000ff",
+    a:0,
+    fa:[2,2,2,2,1,1,2,2,2,3,2,2]
+  },
+  "<i class='fa fa-wifi'></i>\n\n\n\n\n\n\n\n\n<i class='mss mss-Unicode-DeleteRight-Big-2'></i>\n\nACCN"
+]
