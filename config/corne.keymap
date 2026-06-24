@@ -47,17 +47,12 @@
       key-positions   = <16 19>;      //  F e J
     };
 
-
-    combo_enter {
-      bindings        = <&caps_word>;
-      key-positions   = <16 19>;      //  F e J
-    };
-
     //  Pressionar as duas teclas de SPACE (38 e 39) simultaneamente dispara o ENTER.
     combo_thumbs_enter {
-      timeout-ms = <40>;              //  Janela curta e firme para não digitar sem querer durante a escrita
-      key-positions = <38 39>;        //  Posicao dos dois dedoes centrais, teclas de SPACE
-      bindings = <&kp RET>;           //  Comando nativo de ENTER
+      timeout-ms      = <40>;         //  Janela curta e firme para não digitar sem querer durante a escrita
+      key-positions   = <38 39>;      //  Posicao dos dois dedoes centrais, teclas de SPACE
+      bindings        = <&kp RET>;    //  Comando nativo de ENTER
+      layers          = <0>;
     };
 
     //  Camada do mouse:
