@@ -47,20 +47,6 @@
       key-positions   = <16 19>;      //  F e J
     };
 
-//    //  Pressionar as duas teclas de SPACE (38 e 39) simultaneamente dispara o ENTER.
-//    combo_thumbs_enter {
-//      timeout-ms      = <40>;         //  Janela curta e firme para não digitar sem querer durante a escrita
-//      key-positions   = <38 39>;      //  Posicao dos dois dedoes centrais, teclas de SPACE
-//      bindings        = <&kp RET>;    //  Comando nativo de ENTER
-//    };
-
-    //  Pressionar as duas teclas de SPACE (38 e 39) simultaneamente dispara o ENTER.
-    combo_thumbs_del {
-      timeout-ms      = <40>;         //  Janela curta e firme para não digitar sem querer durante a escrita
-      key-positions   = <38 39>;      //  Posicao dos dois dedoes centrais, teclas de SPACE
-      bindings        = <&kp RET>;    //  Comando nativo de ENTER
-    };
-
     //  Camada do mouse:
     //  Apertar ESC (36) + TAB (37) juntos abre a camada MOUS
     combo_mouse {
@@ -246,8 +232,7 @@
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         &none &kp PT_Z        &kp PT_X        &kp PT_C        &kp PT_V        &kp PT_B          &kp PT_N        &kp PT_M        &kp PT_COMMA    &kp PT_DOT      &kp PT_SEMI   &none
         //  ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
-//                                              &lt ACCN ESC    &lt NAVI TAB    &lt NUMB SPACE    &lt SYMB SPACE  &lt FUNC BSPC   &lt ACCN DEL
-                                              &lt ACCN ESC    &lt NAVI TAB    &lt NUMB SPACE    &lt SYMB SPACE  &lt FUNC RET    &lt_bspc ACCN 0
+                                              &lt ACCN ESC    &lt NAVI TAB    &lt NUMB SPACE    &lt SYMB SPACE  &lt_bspc ACCN 0 &lt FUNC RET
         //                                  ╰───────────────┴───────────────┴───────────────╯ ╰───────────────┴───────────────┴───────────────╯
       >;
     };
@@ -266,8 +251,7 @@
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         &none &a_circ         &none           &e_circ         &kp PT_GRAVE    &kp PT_CARET      &kp PT_CARET    &kp PT_GRAVE    &none           &o_circ         &none         &none
         //  ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
-//                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &kp BSPC        &kp DEL
-                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &kp RET         &bs_del
+                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &bs_del         &kp RET
         //                                  ╰───────────────┴───────────────┴───────────────╯ ╰───────────────┴───────────────┴───────────────╯
       >;
     };
@@ -286,8 +270,7 @@
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         &none &none           &none           &none           &none           &none             &kp INS         &kp HOME        &kp PG_DN       &kp PG_UP       &kp END       &none
         //  ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
-//                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &kp BSPC        &kp DEL
-                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &kp RET         &bs_del
+                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &bs_del         &kp RET
         //                                  ╰───────────────┴───────────────┴───────────────╯ ╰───────────────┴───────────────┴───────────────╯
       >;
     };
@@ -306,8 +289,7 @@
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         &none &none           &none           &none           &none           &none             &kp PT_N0       &kp PT_N1       &kp PT_N2       &kp PT_N3       &kp PT_DOT    &none
         //  ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼──────────────—┼———————————————╯
-//                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &kp BSPC        &kp DEL
-                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &kp RET         &bs_del
+                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &bs_del         &kp RET
         //                                  ╰———————————————┴———————————————┴———————————————╯ ╰———————————————┴———————————————┴———————————————╯
       >;
     };
@@ -326,8 +308,7 @@
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         &none &kp PT_TILDE    &kp PT_PLUS     &kp PT_LBKT     &kp PT_RBKT     &kp PT_PRCNT      &kp PT_AT       &kp PT_COLON    &kp PT_COMMA    &kp PT_DOT      &kp PT_APOS   &none
         //  ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
-//                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &kp BSPC        &kp DEL
-                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &kp RET         &bs_del
+                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &bs_del         &kp RET
         //                                  ╰───────────────┴───────────────┴───────────────╯ ╰───────────────┴───────────────┴───────────────╯
       >;
     };
@@ -346,8 +327,7 @@
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         &none &kp F10         &kp F1          &kp F2          &kp F3          &kp PAUSE_BREAK   &none           &none           &none           &none           &none         &none
         //  ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
-//                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &kp BSPC        &kp DEL
-                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &kp RET         &bs_del
+                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &bs_del         &kp RET
         //                                  ╰───────────────┴───────────────┴───────────────╯ ╰───────────────┴───────────────┴───────────────╯
       >;
     };
@@ -379,7 +359,7 @@
       label         = "Mouse";
       bindings      = <
         //  ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮ ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
-        &none &none           &none           &none           &none           &none             &kp K_REDO      &msc SCRL_DOWN  &msc SCRL_UP    &none           &kp K_UNDO    &none
+d        &none &none           &none           &none           &none           &none             &kp K_REDO      &msc SCRL_DOWN  &msc SCRL_UP    &none           &kp K_UNDO    &none
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         &none &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &none             &none           &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP    &mmv MOVE_RIGHT &none
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
