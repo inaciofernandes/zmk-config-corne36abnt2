@@ -267,7 +267,7 @@
         &none &a_circ         &none           &e_circ         &kp PT_GRAVE    &kp PT_CARET      &kp PT_CARET    &kp PT_GRAVE    &none           &o_circ         &none         &none
         //  ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
 //                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &kp BSPC        &kp DEL
-                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &kp RET         &kp BSPC
+                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &kp RET         &bs_del
         //                                  ╰───────────────┴───────────────┴───────────────╯ ╰───────────────┴───────────────┴───────────────╯
       >;
     };
@@ -287,7 +287,7 @@
         &none &none           &none           &none           &none           &none             &kp INS         &kp HOME        &kp PG_DN       &kp PG_UP       &kp END       &none
         //  ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
 //                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &kp BSPC        &kp DEL
-                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &kp RET         &kp BSPC
+                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &kp RET         &bs_del
         //                                  ╰───────────────┴───────────────┴───────────────╯ ╰───────────────┴───────────────┴───────────────╯
       >;
     };
@@ -307,7 +307,7 @@
         &none &none           &none           &none           &none           &none             &kp PT_N0       &kp PT_N1       &kp PT_N2       &kp PT_N3       &kp PT_DOT    &none
         //  ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼──────────────—┼———————————————╯
 //                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &kp BSPC        &kp DEL
-                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &kp RET         &kp BSPC
+                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &kp RET         &bs_del
         //                                  ╰———————————————┴———————————————┴———————————————╯ ╰———————————————┴———————————————┴———————————————╯
       >;
     };
@@ -327,7 +327,7 @@
         &none &kp PT_TILDE    &kp PT_PLUS     &kp PT_LBKT     &kp PT_RBKT     &kp PT_PRCNT      &kp PT_AT       &kp PT_COLON    &kp PT_COMMA    &kp PT_DOT      &kp PT_APOS   &none
         //  ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
 //                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &kp BSPC        &kp DEL
-                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &kp RET         &kp BSPC
+                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &kp RET         &bs_del
         //                                  ╰───────────────┴───────────────┴───────────────╯ ╰───────────────┴───────────────┴───────────────╯
       >;
     };
@@ -347,7 +347,7 @@
         &none &kp F10         &kp F1          &kp F2          &kp F3          &kp PAUSE_BREAK   &none           &none           &none           &none           &none         &none
         //  ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
 //                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &kp BSPC        &kp DEL
-                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &kp RET         &kp BSPC
+                                              &kp ESC         &kp TAB         &kp SPACE         &kp SPACE       &kp RET         &bs_del
         //                                  ╰───────────────┴───────────────┴───────────────╯ ╰───────────────┴───────────────┴───────────────╯
       >;
     };
