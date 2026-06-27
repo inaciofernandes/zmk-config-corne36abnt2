@@ -1,0 +1,798 @@
+[
+  {
+    t:"
+      #0000aa\n#aa00aa\n#aa0000\n#00aaaa\n#000000\n#000000\n#ff0000\n#0000ff\n#00aa00\n#000000\n#aaaa00\n#000000",
+    a:0,
+    fa:[2,2,2,2,1,1,2,2,2,5]
+  },
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nQ\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nW\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nE\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nR\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nT\nH\nK",
+  {x:3},
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nY\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nU\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nI\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nO\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nP\nH\nK"
+],
+[
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nA\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nS\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nD\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nF\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nG\nH\nK",
+  {x:3},
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nH\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nJ\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nK\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nL\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nÇ\nH\nK"
+],
+[
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nZ\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nX\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nC\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nV\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nB\nH\nK",
+  {x:3},
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nN\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nM\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\n,\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\n.\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\n;\nH\nK"
+],
+[
+  {x:3},
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nE\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nE\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nE\nH\nK",
+  {x:1},
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nE\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nE\nH\nK",
+  "A\nG\nC\nI\nJ\nL\nD\nF\nB\nE\nH\nK"
+]
+
+
+
+
+
+
+
+
+
+[
+  {
+    t:"#0000aa\n#aa00aa\n#aa0000\n#00aaaa\n#000000\n#000000\n#ff0000\n#0000ff\n#00aa00\n#000000\n#aaaa00\n#000000",
+    a:0,
+    fa:[5,5,5,5,5,5,5,5,5,9,5,5]
+  },
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {x:3.5},
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL"
+],
+[
+  {y:1},
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {x:3.5},
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL"
+],
+[
+  {y:1},
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {x:3.5},
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL"
+],
+[
+  {y:1},
+  {x:4.5},
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {x:0.5},
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL",
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL"
+]
+
+
+
+
+
+
+[
+  {
+    c:"#444444",
+    t:"#dddddd",    
+    a:0,
+    fa:[9,5,5,5,5,5,5,5,5,5,5,5]
+  },
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {x:3.5},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1}
+],
+[
+  {y:1.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {x:3.5},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1}
+],
+[
+  {y:1.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {x:3.5},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1}
+],
+[
+  {y:1.1},
+  {x:4.8},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {x:0.3},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\nG\nH\n\nJ\nK\nL",{x:0.1}
+],
+
+[
+  {
+    t:"#0000aa\n#aa00aa\n#aa0000\n#777777\n#000000\n#000000\n#ff0000\n#0000ff\n#000000\n#000000\n#777777\n#000000",
+    a:0,
+    fa:[2,2,2,2,1,1,2,2,2,5,2,2]
+  },
+  "\nF12\nbt0\n\n\n\n`\nã\n\nQ\n\n",
+  "\nF8\nbt1\n\n\n\n<\n\n\nW\n\n",
+  "\nF9\nbt2\n\n\n\n>\n\n\nE\n\n",
+  "\nF10\nbt3\n\n\n\n-\n\n\nR\n\n",
+  "\n<i class='fa fa-camera'></i>\nbt4\n\n\n\n|\n~\n\nT\n\n",
+  {x:3},
+  "+\n\nredo\n<i class='fa fa-repeat'></i>\n\n\n^\n~\n\nY\n\n",
+  "7\n\nsc dw\n<i class='fa fa-paste'></i>\n\n\n{\n\n\nU\n\n",
+  "8\n\nsc up\n<i class='fa fa-copy'></i>\n\n\n}\n\n\nI\n\n",
+  "9\n\n\n<i class='fa fa-cut'></i>\n\n\n$\nõ\n\nO\n\n",
+  "*\n\nundo\n<i class='fa fa-undo'></i>\n\n\n_\n\n\nP\n\n"
+],
+[
+  {
+    t:"#0000aa\n#aa00aa\n#aa0000\n#777777\n#000000\n#000000\n#ff0000\n#0000ff\n#000000\n#000000\n#777777\n#000000",
+    a:0,
+    fa:[2,2,2,2,1,1,2,2,2,5,2,2]
+  },
+  "\nF11\nout tog\n\n\n\n!\ná\n\nA\n\n<i class='kb kb-logo-linux-tux-ibm'></i>",
+  "\nF4\nbt clr\n\n\n\n*\nà\n\nS\n\nAlt",
+  "\nF5\nbt prv\n\n\n\n/\né\n\nD\n\nControl",
+  "\nF6\nbt nxt\n\n\n\n=\n\n\nF\n\nShift",
+  "\n<i class='mss mss-Unicode-Scroll-3'></i>\n\n\n\n\n&\n´\n\nG\n\n",
+  {x:3},
+  "-\n\n\ncaps\n\n\n#\n´\n\nH\n\n",
+  "4\n\n<i class='fa fa-arrow-circle-left'></i>\n<i class='fa fa-arrow-left'></i>\n\n\n(\nú\n\nJ\n\nShift",
+  "5\n\n<i class='fa fa-arrow-circle-down'></i>\n<i class='fa fa-arrow-down'></i>\n\n\n)\ní\n\nK\n\nControl",
+  "6\n\n<i class='fa fa-arrow-circle-up'></i>\n<i class='fa fa-arrow-up'></i>\n\n\n;\nó\n\nL\n\nAlt",
+  "/\n\n<i class='fa fa-arrow-circle-right'></i>\n<i class='fa fa-arrow-right'></i>\n\n\n\"\n\n\nÇ\n\n<i class='kb kb-logo-linux-tux-ibm'></i>"
+],
+[
+  {
+    t:"#0000aa\n#aa00aa\n#aa0000\n#777777\n#000000\n#000000\n#ff0000\n#0000ff\n#000000\n#000000\n#777777\n#000000",
+    a:0,
+    fa:[2,2,2,2,1,1,2,2,2,5,2,2]
+  },
+  "\nF10\n\n\n\n\n~\nâ\n\nZ\n\n",
+  "\nF1\n\n\n\n\n+\n\n\nX\n\n",
+  "\nF2\n\n\n\n\n[\nê\n\nC\n\n",
+  "\nF3\n\n\n\n\n]\n`\n\nV\n\n",
+  "\n<i class='fa fa-pause'></i>\n\n\n\n\n%\n^\n\nB\n\n",
+  {x:3},
+  "0\n\n\nins\n\n\n@\n^\n\nN\n\n",
+  "1\n\nlc\nhome\n\n\n:\n`\n\nM\n\n",
+  "2\n\nmc\npg dn\n\n\n,\n\n<\n,\n\n",
+  "3\n\nrc\npg up\n\n\n.\nô\n>\n.\n\n",
+  ".\n\n\nendI\n\n\n'\n\n:\n;\n\n"
+],
+[
+  {
+    x:3,
+    t:"#0000aa\n#aa00aa\n#aa0000\n#777777\n#000000\n#000000\n#ff0000\n#0000ff\n#000000\n#000000\n#000000\n#0000ff",
+    a:0,
+    fa:[2,2,2,2,1,1,2,2,2,3,2,2]
+  },
+  "\n\n<i class='fa fa-mouse-pointer'></i>\n\n\n\n\n\n\nESC\n\nACCN",
+  {
+    t:"#aa0000\n#aa00aa\n#aa0000\n#777777\n#000000\n#000000\n#ff0000\n#0000ff\n#000000\n#000000\n#000000\n#777777",
+    a:0,
+    fa:[2,2,2,2,1,1,2,2,2,3,2,2]
+  },
+
+  "<i class='fa fa-mouse-pointer'></i>\n\n<i class='kb kb-Multimedia-Play-Pause'></i>\n\n\n\n\n\n\nTab\n\nNAVI",
+  {
+    h:1.5,
+    t:"#0000aa\n#aa00aa\n#aa0000\n#777777\n#000000\n#000000\n#ff0000\n#0000ff\n#000000\n#000000\n#000000\n#0000aa",
+    a:0,
+    fa:[2,2,2,2,1,1,2,2,2,3,2,2]
+  },
+  "<i class='kb kb-Multimedia-Play-Pause'></i></i>\n\n\n\n\n\n\n\n\nSpace\n\nNUMB",
+  {
+    x:1,
+    h:1.5,
+    t:"#0000aa\n#aa00aa\n#aa0000\n#777777\n#000000\n#000000\n#ff0000\n#0000ff\n#000000\n#000000\n#000000\n#ff0000",
+    a:0,
+    fa:[2,2,2,2,1,1,2,2,2,3,2,2]
+  },
+  "\n\n\n\n\n\n\n\n\nEnter\n\nSYMB",
+  {
+    t:"#0000aa\n#aa00aa\n#aa0000\n#777777\n#000000\n#000000\n#ff0000\n#0000ff\n#000000\n#000000\n#000000\n#aa00aa",
+    a:0,
+    fa:[2,2,2,2,1,1,2,2,2,3,2,2]
+  },
+  "\n\n<i class='fa fa-wifi'></i>\n\n\n\n\n\n\n<i class='mss mss-Unicode-BackSpace-DeleteLeft-Big-2'></i>\n\nFUNC",
+  {
+    t:"#aa0000\n#aa00aa\n#aa0000\n#777777\n#000000\n#000000\n#ff0000\n#0000ff\n#000000\n#000000\n#000000\n#0000ff",
+    a:0,
+    fa:[2,2,2,2,1,1,2,2,2,3,2,2]
+  },
+  "<i class='fa fa-wifi'></i>\n\n\n\n\n\n\n\n\n<i class='mss mss-Unicode-DeleteRight-Big-2'></i>\n\nACCN"
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[
+  {
+    a:0,
+    fa:[9,5,5,5,5,5,9,5,5,5,5,5]
+  },
+  {h:2},{w:2},"Q\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"W\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"E\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"R\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"T\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1},
+  {x:5.2},
+  {h:2},{w:2},"Y\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"U\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"I\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"O\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"P\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1}
+],
+[
+  {y:1.1},
+  {h:2},{w:2},"A\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"S\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"D\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"F\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"G\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1},
+  {x:5.2},
+  {h:2},{w:2},"H\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"J\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"K\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"L\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"Ç\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1}
+],
+[
+  {y:1.1},
+  {h:2},{w:2},"Z\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"X\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"C\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"V\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"B\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1},
+  {x:5.2},
+  {h:2},{w:2},"N\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},"M\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},",\nB\nC\nD\n\n\n<\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},".\nB\nC\nD\n\n\n>\nH\n\nJ\nK\nL",{x:0.1},
+  {h:2},{w:2},";\nB\nC\nD\n\n\n:\nH\n\nJ\nK\nL",{x:0.1}
+],
+[
+  {y:1.1},
+  {x:6.3},
+  {h:2},{w:2},"Escape\n\n\n<i class='fa fa-mouse-pointer'></i>\n\n\n\n\n\n\n\nACCN",{x:0.1},
+  {h:2},{w:2},"Tab\n<i class='fa fa-mouse-pointer'></i>\n\n<i class='kb kb-Multimedia-Play-Pause'></i>\n\n\n\n\n\n\n\nNAVI",{x:0.1},
+  {h:2},{w:2},"Space\n<i class='kb kb-Multimedia-Play-Pause'></i>\n\n\n\n\n\n\n\n\n\nNUMB",{x:0.1},
+  {x:1},
+  {h:2},{w:2},"Space\n\n\n\n\n\n\n\n\n\n\nSYMB",{x:0.1},
+  {h:2},{w:2},"<i class='mss mss-Unicode-BackSpace-DeleteLeft-Big-2'></i>\n\n\n<i class='fa fa-wifi'></i>\n\n\n<i class='mss mss-Unicode-DeleteRight-Big-2'></i>\n\n\n\n\nFUNC",{x:0.1},
+  {h:2},{w:2},"Enter\n<i class='fa fa-wifi'></i>\n\n\n\n\n\n\n\n\n\nACCN",{x:0.1}
+],
+
+[
+  {
+    a:0,
+    fa:[9,5,5,5,5,5,5,5,5,5,5,5]
+  },
+  {y:1.1},
+  {h:2},{w:2},"\nF12\nbt0\n\n\n\n`\nã\n\nQ\n\n",{x:0.1},
+  {h:2},{w:2},"\nF8\nbt1\n\n\n\n<\n\n\nW\n\n",{x:0.1},
+  {h:2},{w:2},"\nF9\nbt2\n\n\n\n>\n\n\nE\n\n",{x:0.1},
+  {h:2},{w:2},"\nF10\nbt3\n\n\n\n-\n\n\nR\n\n",{x:0.1},
+  {h:2},{w:2},"\n<i class='fa fa-camera'></i>\nbt4\n\n\n\n|\n~\n\nT\n\n",{x:0.1},
+  {x:5.2},
+  {h:2},{w:2},"+\n\nredo\n<i class='fa fa-repeat'></i>\n\n\n^\n~\n\nY\n\n",{x:0.1},
+  {h:2},{w:2},"7\n\nsc dw\n<i class='fa fa-paste'></i>\n\n\n{\n\n\nU\n\n",{x:0.1},
+  {h:2},{w:2},"8\n\nsc up\n<i class='fa fa-copy'></i>\n\n\n}\n\n\nI\n\n",{x:0.1},
+  {h:2},{w:2},"9\n\n\n<i class='fa fa-cut'></i>\n\n\n$\nõ\n\nO\n\n",{x:0.1},
+  {h:2},{w:2},"*\n\nundo\n<i class='fa fa-undo'></i>\n\n\n_\n\n\nP\n\n",{x:0.1}
+],
+[
+  {
+    t:"#0000aa\n#aa00aa\n#aa0000\n#777777\n#000000\n#000000\n#ff0000\n#0000ff\n#000000\n#000000\n#777777\n#000000",
+    a:0,
+    fa:[2,2,2,2,1,1,2,2,2,5,2,2]
+  },
+  {y:1.1},
+  {h:2},{w:2},"\nF11\nout tog\n\n\n\n!\ná\n\nA\n\n<i class='kb kb-logo-linux-tux-ibm'></i>",{x:0.1},
+  {h:2},{w:2},"\nF4\nbt clr\n\n\n\n*\nà\n\nS\n\nAlt",{x:0.1},
+  {h:2},{w:2},"\nF5\nbt prv\n\n\n\n/\né\n\nD\n\nControl",{x:0.1},
+  {h:2},{w:2},"\nF6\nbt nxt\n\n\n\n=\n\n\nF\n\nShift",{x:0.1},
+  {h:2},{w:2},"\n<i class='mss mss-Unicode-Scroll-3'></i>\n\n\n\n\n&\n´\n\nG\n\n",{x:0.1},
+  {x:5.2},
+  {h:2},{w:2},"-\n\n\ncaps\n\n\n#\n´\n\nH\n\n",{x:0.1},
+  {h:2},{w:2},"4\n\n<i class='fa fa-arrow-circle-left'></i>\n<i class='fa fa-arrow-left'></i>\n\n\n(\nú\n\nJ\n\nShift",{x:0.1},
+  {h:2},{w:2},"5\n\n<i class='fa fa-arrow-circle-down'></i>\n<i class='fa fa-arrow-down'></i>\n\n\n)\ní\n\nK\n\nControl",{x:0.1},
+  {h:2},{w:2},"6\n\n<i class='fa fa-arrow-circle-up'></i>\n<i class='fa fa-arrow-up'></i>\n\n\n;\nó\n\nL\n\nAlt",{x:0.1},
+  {h:2},{w:2},"/\n\n<i class='fa fa-arrow-circle-right'></i>\n<i class='fa fa-arrow-right'></i>\n\n\n\"\n\n\nÇ\n\n<i class='kb kb-logo-linux-tux-ibm'></i>",{x:0.1}
+],
+[
+  {
+    t:"#0000aa\n#aa00aa\n#aa0000\n#777777\n#000000\n#000000\n#ff0000\n#0000ff\n#000000\n#000000\n#777777\n#000000",
+    a:0,
+    fa:[2,2,2,2,1,1,2,2,2,5,2,2]
+  },
+  {y:1.1},
+  {h:2},{w:2},"\nF10\n\n\n\n\n~\nâ\n\nZ\n\n",{x:0.1},
+  {h:2},{w:2},"\nF1\n\n\n\n\n+\n\n\nX\n\n",{x:0.1},
+  {h:2},{w:2},"\nF2\n\n\n\n\n[\nê\n\nC\n\n",{x:0.1},
+  {h:2},{w:2},"\nF3\n\n\n\n\n]\n`\n\nV\n\n",{x:0.1},
+  {h:2},{w:2},"\n<i class='fa fa-pause'></i>\n\n\n\n\n%\n^\n\nB\n\n",{x:0.1},
+  {x:5.2},
+  {h:2},{w:2},"0\n\n\nins\n\n\n@\n^\n\nN\n\n",{x:0.1},
+  {h:2},{w:2},"1\n\nlc\nhome\n\n\n:\n`\n\nM\n\n",{x:0.1},
+  {h:2},{w:2},"2\n\nmc\npg dn\n\n\n,\n\n<\n,\n\n",{x:0.1},
+  {h:2},{w:2},"3\n\nrc\npg up\n\n\n.\nô\n>\n.\n\n",{x:0.1},
+  {h:2},{w:2},".\n\n\nendI\n\n\n'\n\n:\n;\n\n",{x:0.1}
+],
+[
+  {
+    t:"#0000aa\n#aa00aa\n#aa0000\n#777777\n#000000\n#000000\n#ff0000\n#0000ff\n#000000\n#000000\n#000000\n#0000ff",
+    a:0,
+    fa:[2,2,2,2,1,1,2,2,2,3,2,2]
+  },
+  {x:6.3},
+  {y:1.1},
+  {h:2},{w:2},"\n\n<i class='fa fa-mouse-pointer'></i>\n\n\n\n\n\n\nESC\n\nACCN",{x:0.1},
+  {
+    t:"#aa0000\n#aa00aa\n#aa0000\n#777777\n#000000\n#000000\n#ff0000\n#0000ff\n#000000\n#000000\n#000000\n#777777",
+    a:0,
+    fa:[2,2,2,2,1,1,2,2,2,3,2,2]
+  },
+
+  {h:2},{w:2},"<i class='fa fa-mouse-pointer'></i>\n\n<i class='kb kb-Multimedia-Play-Pause'></i>\n\n\n\n\n\n\nTab\n\nNAVI",{x:0.1},
+  {
+    h:1.5,
+    t:"#0000aa\n#aa00aa\n#aa0000\n#777777\n#000000\n#000000\n#ff0000\n#0000ff\n#000000\n#000000\n#000000\n#0000aa",
+    a:0,
+    fa:[2,2,2,2,1,1,2,2,2,3,2,2]
+  },
+  {h:2},{w:2},"<i class='kb kb-Multimedia-Play-Pause'></i></i>\n\n\n\n\n\n\n\n\nSpace\n\nNUMB",{x:0.1},
+  {
+    x:1,
+    h:1.5,
+    t:"#0000aa\n#aa00aa\n#aa0000\n#777777\n#000000\n#000000\n#ff0000\n#0000ff\n#000000\n#000000\n#000000\n#ff0000",
+    a:0,
+    fa:[2,2,2,2,1,1,2,2,2,3,2,2]
+  },
+  {h:2},{w:2},"\n\n\n\n\n\n\n\n\nEnter\n\nSYMB",{x:0.1},
+  {
+    t:"#0000aa\n#aa00aa\n#aa0000\n#777777\n#000000\n#000000\n#ff0000\n#0000ff\n#000000\n#000000\n#000000\n#aa00aa",
+    a:0,
+    fa:[2,2,2,2,1,1,2,2,2,3,2,2]
+  },
+  {h:2},{w:2},"\n\n<i class='fa fa-wifi'></i>\n\n\n\n\n\n\n<i class='mss mss-Unicode-BackSpace-DeleteLeft-Big-2'></i>\n\nFUNC",{x:0.1},
+  {
+    t:"#aa0000\n#aa00aa\n#aa0000\n#777777\n#000000\n#000000\n#ff0000\n#0000ff\n#000000\n#000000\n#000000\n#0000ff",
+    a:0,
+    fa:[2,2,2,2,1,1,2,2,2,3,2,2]
+  },
+  {h:2},{w:2},"<i class='fa fa-wifi'></i>\n\n\n\n\n\n\n\n\n<i class='mss mss-Unicode-DeleteRight-Big-2'></i>\n\nACCN",{x:0.1}
+]
+
+
+
+
+
+
+
+
+  {h:2},{w:2},"Q\nB\nC\nD\n\n\n \nH\n\nJ\nK\nL",{x:0.1},
+
+
+"    Q    \n    B    \n    C                                    \n    D    \n  E \n  F \n    G    \n    H                                           \n    \n    J    \n    K    \n    L    ",{x:0.1},
+
+"    Q    \n    ?    \n                                         \n         \n    \n    \n         \n    bt0                                         \n    ã     \n        \n    F12                                         \n                                                \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1},
+"    W    \n    <    \n                                         \n         \n    \n    \n         \n    bt1                                         \n          \n        \n    F8                                          \n                                                \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1},
+"    E    \n    >    \n                                         \n         \n    \n    \n         \n    bt2                                         \n          \n        \n    F9                                          \n                                                \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1},
+"    R    \n    -    \n                                         \n         \n    \n    \n         \n    bt3                                         \n          \n        \n    F10                                         \n                                                \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1},
+"    T    \n    |    \n                                         \n         \n    \n    \n         \n    bt4                                         \n    ~     \n        \n    <i class='fa fa-camera'></i>                \n                                                \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1},
+"    Y    \n    ^    \n    <i class='fa fa-repeat'></i>         \n    +    \n    \n    \n         \n    redo                                        \n    ~     \n        \n                                                \n                                                \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1},
+"    U    \n    {    \n    <i class='fa fa-paste'></i>          \n    7    \n    \n    \n         \n    sc dw                                       \n          \n        \n                                                \n                                                \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1},
+"    I    \n    }    \n    <i class='fa fa-copy'></i>           \n    8    \n    \n    \n         \n    sc up                                       \n          \n        \n                                                \n                                                \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1},
+"    O    \n    $    \n    <i class='fa fa-cut'></i>            \n    9    \n    \n    \n         \n                                                \n    õ     \n        \n                                                \n                                                \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1},
+"    P    \n    _    \n    <i class='fa fa-undo'></i>           \n    *    \n    \n    \n         \n    undo                                        \n          \n        \n                                                \n                                                \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1}
+"    A    \n    !    \n                                         \n         \n    \n    \n         \n    out tog                                     \n    á     \n        \n    F11                                         \n    <i class='kb kb-logo-linux-tux-ibm'></i>    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1},
+"    S    \n    *    \n                                         \n         \n    \n    \n         \n    bt clr                                      \n    à     \n        \n    F4                                          \n    Alt                                         \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1},
+"    D    \n    /    \n                                         \n         \n    \n    \n         \n    bt prv                                      \n    é     \n        \n    F5                                          \n    Control                                     \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1},
+"    F    \n    =    \n                                         \n         \n    \n    \n         \n    bt nxt                                      \n          \n        \n    F6                                          \n    Shift                                       \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1},
+"    G    \n    &    \n                                         \n         \n    \n    \n         \n                                                \n    ´     \n        \n    <i class='mss mss-Unicode-Scroll-3'></i>    \n                                                \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1},
+"    H    \n    #    \n    caps                                 \n    -    \n    \n    \n         \n                                                \n    ´     \n        \n                                                \n                                                \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1},
+"    J    \n    (    \n    <i class='fa fa-arrow-left'></i>     \n    4    \n    \n    \n         \n    <i class='fa fa-arrow-circle-left'></i>     \n    ú     \n        \n                                                \n    Shift                                       \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1},
+"    K    \n    )    \n    <i class='fa fa-arrow-down'></i>     \n    5    \n    \n    \n         \n    <i class='fa fa-arrow-circle-down'></i>     \n    í     \n        \n                                                \n    Control                                     \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1},
+"    L    \n    ;    \n    <i class='fa fa-arrow-up'></i>       \n    6    \n    \n    \n         \n    <i class='fa fa-arrow-circle-up'></i>       \n    ó     \n        \n                                                \n    Alt                                         \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1},
+"    Ç    \n    \"   \n    <i class='fa fa-arrow-right'></i>    \n    /    \n    \n    \n         \n    <i class='fa fa-arrow-circle-right'></i>    \n          \n        \n                                                \n    <i class='kb kb-logo-linux-tux-ibm'></i>    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1}
+"    Z    \n    ~    \n                                         \n         \n    \n    \n         \n                                                \n    â     \n        \n    F10                                         \n                                                \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1},
+"    X    \n    +    \n                                         \n         \n    \n    \n         \n                                                \n          \n        \n    F1                                          \n                                                \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1},
+"    C    \n    [    \n                                         \n         \n    \n    \n         \n                                                \n    ê     \n        \n    F2                                          \n                                                \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1},
+"    V    \n    ]    \n                                         \n         \n    \n    \n         \n                                                \n    `     \n        \n    F3                                          \n                                                \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1},
+"    B    \n    %    \n                                         \n         \n    \n    \n         \n                                                \n    ^     \n        \n    <i class='fa fa-pause'></i>                 \n                                                \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1},
+"    N    \n    @    \n    ins                                  \n    0    \n    \n    \n         \n                                                \n    ^     \n        \n                                                \n                                                \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1},
+"    M    \n    :    \n    home                                 \n    1    \n    \n    \n         \n    lc                                          \n    `     \n        \n                                                \n                                                \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1},
+"    ,    \n    ,    \n    pg dn                                \n    2    \n    \n    \n    <    \n    mc                                          \n          \n        \n                                                \n                                                \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1},
+"    .    \n    .    \n    pg up                                \n    3    \n    \n    \n    >    \n    rc                                          \n    ô     \n        \n                                                \n                                                \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1},
+"    ;    \n    '    \n    endI                                 \n    .    \n    \n    \n    :    \n                                                \n          \n        \n                                                \n                                                \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    ",{x:0.1}
+
+
+
+
+[
+  {
+    a:0,
+    fa:[9,5,5,5,5,5,9,5,5,5,5,5]
+  },
+  {h:2},{w:2},"Q\nF12                                     \n                                 \nbt0                                     \n\n\n \n\nã\n? \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"W\nF8                                      \n                                 \nbt1                                     \n\n\n \n\n \n< \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"E\nF9                                      \n                                 \nbt2                                     \n\n\n \n\n \n> \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"R\nF10                                     \n                                 \nbt3                                     \n\n\n \n\n \n- \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"T\n<i class='fa fa-camera'></i>            \n                                 \nbt4                                     \n\n\n \n\n~\n| \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {x:5.2},                                                                                                                                                                                                                                                                                                                                                                                                                       
+  {h:2},{w:2},"Y\n+                                       \n<i class='fa fa-repeat'></i>     \nredo                                    \n\n\n \n\n~\n^ \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"U\n7                                       \n<i class='fa fa-paste'></i>      \nsc dw                                   \n\n\n \n\n \n{ \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"I\n8                                       \n<i class='fa fa-copy'></i>       \nsc up                                   \n\n\n \n\n \n} \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"O\n9                                       \n<i class='fa fa-cut'></i>        \n                                        \n\n\n \n\nõ\n$ \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"P\n*                                       \n<i class='fa fa-undo'></i>       \nundo                                    \n\n\n \n\n \n_ \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1}
+],                                                                                                                                                                                                                                                                                                                                                                                                                       
+[                                                                                                                                                                                                                                                                                                                                                                                                                       
+  {y:1.1},                                                                                                                                                                                                                                                                                                                                                                                                                       
+  {h:2},{w:2},"A\nF11                                     \n                                 \nout tog                                 \n\n\n \n\ná\n! \n\n<i class='kb kb-logo-linux-tux-ibm'></i>\n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"S\nF4                                      \n                                 \nbt clr                                  \n\n\n \n\nà\n* \n\nAlt                                     \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"D\nF5                                      \n                                 \nbt prv                                  \n\n\n \n\né\n/ \n\nControl                                 \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"F\nF6                                      \n                                 \nbt nxt                                  \n\n\n \n\n \n= \n\nShift                                   \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"G\n<i class='mss mss-Unicode-Scroll-3'></i>\n                                 \n                                        \n\n\n \n\n´\n& \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {x:5.2},                                                                                                                                                                                                                                                                                                                                                                                                                       
+  {h:2},{w:2},"H\n-                                       \ncaps                             \n                                        \n\n\n \n\n´\n# \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"J\n4                                       \n<i class='fa fa-arrow-left'></i> \n<i class='fa fa-arrow-circle-left'></i> \n\n\n \n\nú\n( \n\nShift                                   \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"K\n5                                       \n<i class='fa fa-arrow-down'></i> \n<i class='fa fa-arrow-circle-down'></i> \n\n\n \n\ní\n) \n\nControl                                 \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"L\n6                                       \n<i class='fa fa-arrow-up'></i>   \n<i class='fa fa-arrow-circle-up'></i>   \n\n\n \n\nó\n; \n\nAlt                                     \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"Ç\n/                                       \n<i class='fa fa-arrow-right'></i>\n<i class='fa fa-arrow-circle-right'></i>\n\n\n \n\n \n\"\n\n<i class='kb kb-logo-linux-tux-ibm'></i>\n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1}
+],                                                                                                                                                                                                                                                                                                                                                                                                                       
+[                                                                                                                                                                                                                                                                                                                                                                                                                       
+  {y:1.1},                                                                                                                                                                                                                                                                                                                                                                                                                       
+  {h:2},{w:2},"Z\nF10                                     \n                                 \n                                        \n\n\n \n\nâ\n~ \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"X\nF1                                      \n                                 \n                                        \n\n\n \n\n \n+ \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"C\nF2                                      \n                                 \n                                        \n\n\n \n\nê\n[ \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"V\nF3                                      \n                                 \n                                        \n\n\n \n\n`\n] \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"B\n<i class='fa fa-pause'></i>             \n                                 \n                                        \n\n\n \n\n^\n% \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {x:5.2},                                                                                                                                                                                                                                                                                                                                                                                                                       
+  {h:2},{w:2},"N\n0                                       \nins                              \n                                        \n\n\n \n\n^\n@ \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"M\n1                                       \nhome                             \nlc                                      \n\n\n \n\n`\n: \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},",\n2                                       \npg dn                            \nmc                                      \n\n\n<\n\n \n, \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},".\n3                                       \npg up                            \nrc                                      \n\n\n>\n\nô\n. \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},";\n.                                       \nen                               \n                                        \n\n\n:\n\n \n' \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1}
+],                                                                                                                                                                                                                                                                                                                                                                                                                        
+[                                                                                                                                                                                                                                                                                                                                                                                                                        
+  {y:1.1},                                                                                                                                                                                                                                                                                                                                                                                                                        
+  {x:6.3},                                                                                                                                                                                                                                                                                                                                                                                                                        
+  {h:2},{w:2},"Escape\n\n\n<i class='fa fa-mouse-pointer'></i>\n\n\n\n\n\n\nACCN\n",{x:0.1},
+  {h:2},{w:2},"Tab\n<i class='fa fa-mouse-pointer'></i>\n\n<i class='kb kb-Multimedia-Play-Pause'></i>\n\n\n\n\n\n\nNAVI\n",{x:0.1},
+  {h:2},{w:2},"Space\n<i class='kb kb-Multimedia-Play-Pause'></i>\n\n\n\n\n\n\n\n\nNUMB\n",{x:0.1},
+  {x:1},                                                                                                                                                                                                                                                                                                                                                                                                                        
+  {h:2},{w:2},"Space\n\n\n\n\n\n\n\n\n\nSYMB\n",{x:0.1},
+  {h:2},{w:2},"<i class='mss mss-Unicode-BackSpace-DeleteLeft-Big-2'></i>\n\n\n<i class='fa fa-wifi'></i>\n\n\n<i class='mss mss-Unicode-DeleteRight-Big-2'></i>\n\n\n\nFUNC\n",{x:0.1},
+  {h:2},{w:2},"Enter\n<i class='fa fa-wifi'></i>\n\n\n\n\n\n\n\n\nACCN\n",{x:0.1}
+],                                                                                                                                                                                                                                                                                                                                                                                                                        
+[                                                                                                                                                                                                                                                                                                                                                                                                                        
+  {y:1},                                                                                                                                                                                                                                                                                                                                                                                                                        
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL"                                                                                                                                                                                                                                                                                                                                                                                                                        
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[
+  {
+    a:0,
+    fa:[9,5,7,5,5,5,9,5,9,9,7,5]
+  },
+  {h:2},{w:2},"Q\nF12                                     \n                                 \nbt0                                     \n\n\n \n\nã\n? \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"W\nF8                                      \n                                 \nbt1                                     \n\n\n \n\n \n< \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"E\nF9                                      \n                                 \nbt2                                     \n\n\n \n\n \n> \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"R\nF10                                     \n                                 \nbt3                                     \n\n\n \n\n \n- \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"T\n<i class='fa fa-camera'></i>            \n                                 \nbt4                                     \n\n\n \n\n~\n| \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {x:5.2},                                                                                                                                                                                                                                                                                                                                                                                                                       
+  {h:2},{w:2},"Y\n+                                       \n<i class='fa fa-repeat'></i>     \nredo                                    \n\n\n \n\n~\n^ \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"U\n7                                       \n<i class='fa fa-paste'></i>      \nsc dw                                   \n\n\n \n\n \n{ \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"I\n8                                       \n<i class='fa fa-copy'></i>       \nsc up                                   \n\n\n \n\n \n} \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"O\n9                                       \n<i class='fa fa-cut'></i>        \n                                        \n\n\n \n\nõ\n$ \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"P\n*                                       \n<i class='fa fa-undo'></i>       \nundo                                    \n\n\n \n\n \n_ \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1}
+],                                                                                                                                                                                                                                                                                                                                                                                                                       
+[                                                                                                                                                                                                                                                                                                                                                                                                                       
+  {y:1.1},                                                                                                                                                                                                                                                                                                                                                                                                                       
+  {h:2},{w:2},"A\nF11                                     \n                                 \nout tog                                 \n\n\n \n\ná\n! \n\n<i class='kb kb-logo-linux-tux-ibm'></i>\n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"S\nF4                                      \n                                 \nbt clr                                  \n\n\n \n\nà\n* \n\nAlt                                     \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"D\nF5                                      \n                                 \nbt prv                                  \n\n\n \n\né\n/ \n\nControl                                 \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"F\nF6                                      \n                                 \nbt nxt                                  \n\n\n \n\n \n= \n\nShift                                   \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"G\n<i class='mss mss-Unicode-Scroll-3'></i>\n                                 \n                                        \n\n\n \n\n´\n& \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {x:5.2},                                                                                                                                                                                                                                                                                                                                                                                                                       
+  {h:2},{w:2},"H\n-                                       \ncaps                             \n                                        \n\n\n \n\n´\n# \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"J\n4                                       \n<i class='fa fa-arrow-left'></i> \n<i class='fa fa-arrow-circle-left'></i> \n\n\n \n\nú\n( \n\nShift                                   \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"K\n5                                       \n<i class='fa fa-arrow-down'></i> \n<i class='fa fa-arrow-circle-down'></i> \n\n\n \n\ní\n) \n\nControl                                 \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"L\n6                                       \n<i class='fa fa-arrow-up'></i>   \n<i class='fa fa-arrow-circle-up'></i>   \n\n\n \n\nó\n; \n\nAlt                                     \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"Ç\n/                                       \n<i class='fa fa-arrow-right'></i>\n<i class='fa fa-arrow-circle-right'></i>\n\n\n \n\n \n\"\n\n<i class='kb kb-logo-linux-tux-ibm'></i>\n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1}
+],                                                                                                                                                                                                                                                                                                                                                                                                                       
+[                                                                                                                                                                                                                                                                                                                                                                                                                       
+  {y:1.1},                                                                                                                                                                                                                                                                                                                                                                                                                       
+  {h:2},{w:2},"Z\nF10                                     \n                                 \n                                        \n\n\n \n\nâ\n~ \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"X\nF1                                      \n                                 \n                                        \n\n\n \n\n \n+ \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"C\nF2                                      \n                                 \n                                        \n\n\n \n\nê\n[ \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"V\nF3                                      \n                                 \n                                        \n\n\n \n\n`\n] \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"B\n<i class='fa fa-pause'></i>             \n                                 \n                                        \n\n\n \n\n^\n% \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {x:5.2},                                                                                                                                                                                                                                                                                                                                                                                                                       
+  {h:2},{w:2},"N\n0                                       \nins                              \n                                        \n\n\n \n\n^\n@ \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},"M\n1                                       \nhome                             \nlc                                      \n\n\n \n\n`\n: \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},",\n2                                       \npg dn                            \nmc                                      \n\n\n<\n\n \n, \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},".\n3                                       \npg up                            \nrc                                      \n\n\n>\n\nô\n. \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1},
+  {h:2},{w:2},";\n.                                       \nen                               \n                                        \n\n\n:\n\n \n' \n\n                                        \n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1}
+],                                                                                                                                                                                                                                                                                                                                                                                                                        
+[                                                                                                                                                                                                                                                                                                                                                                                                                        
+  {y:1.1},                                                                                                                                                                                                                                                                                                                                                                                                                        
+  {x:6.3},                                                                                                                                                                                                                                                                                                                                                                                                                        
+  {h:2},{w:2},"Escape\n\n\n<i class='fa fa-mouse-pointer'></i>\n\n\n\n\n\n\nACCN\n",{x:0.1},
+  {h:2},{w:2},"Tab\n<i class='fa fa-mouse-pointer'></i>\n\n<i class='kb kb-Multimedia-Play-Pause'></i>\n\n\n\n\n\n\nNAVI\n",{x:0.1},
+  {h:2},{w:2},"Space\n<i class='kb kb-Multimedia-Play-Pause'></i>\n\n\n\n\n\n\n\n\nNUMB\n",{x:0.1},
+  {x:1},                                                                                                                                                                                                                                                                                                                                                                                                                        
+  {h:2},{w:2},"Space\n\n\n\n\n\n\n\n\n\nSYMB\n",{x:0.1},
+  {h:2},{w:2},"<i class='mss mss-Unicode-BackSpace-DeleteLeft-Big-2'></i>\n\n\n<i class='fa fa-wifi'></i>\n\n\n<i class='mss mss-Unicode-DeleteRight-Big-2'></i>\n\n\n\nFUNC\n",{x:0.1},
+  {h:2},{w:2},"Enter\n<i class='fa fa-wifi'></i>\n\n\n\n\n\n\n\n\nACCN\n",{x:0.1}
+],                                                                                                                                                                                                                                                                                                                                                                                                                        
+[                                                                                                                                                                                                                                                                                                                                                                                                                        
+  {y:1},                                                                                                                                                                                                                                                                                                                                                                                                                        
+  {h:2},{w:1.5},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL"                                                                                                                                                                                                                                                                                                                                                                                                                        
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"\nF12\nbt0\n\n\n\n`\nã\n\nQ\n\n",{x:0.1},
+"\nF8\nbt1\n\n\n\n<\n\n\nW\n\n",{x:0.1},
+"\nF9\nbt2\n\n\n\n>\n\n\nE\n\n",{x:0.1},
+"\nF10\nbt3\n\n\n\n-\n\n\nR\n\n",{x:0.1},
+"\n<i class='fa fa-camera'></i>\nbt4\n\n\n\n|\n~\n\nT\n\n",{x:0.1},
+
+"+\n\nredo\n<i class='fa fa-repeat'></i>\n\n\n^\n~\n\nY\n\n",{x:0.1},
+"7\n\nsc dw\n<i class='fa fa-paste'></i>\n\n\n{\n\n\nU\n\n",{x:0.1},
+"8\n\nsc up\n<i class='fa fa-copy'></i>\n\n\n}\n\n\nI\n\n",{x:0.1},
+"9\n\n\n<i class='fa fa-cut'></i>\n\n\n$\nõ\n\nO\n\n",{x:0.1},
+"*\n\nundo\n<i class='fa fa-undo'></i>\n\n\n_\n\n\nP\n\n",{x:0.1}
+
+"\nF11\nout tog\n\n\n\n!\ná\n\nA\n\n<i class='kb kb-logo-linux-tux-ibm'></i>",{x:0.1},
+"\nF4\nbt clr\n\n\n\n*\nà\n\nS\n\nAlt",{x:0.1},
+"\nF5\nbt prv\n\n\n\n/\né\n\nD\n\nControl",{x:0.1},
+"\nF6\nbt nxt\n\n\n\n=\n\n\nF\n\nShift",{x:0.1},
+"\n<i class='mss mss-Unicode-Scroll-3'></i>\n\n\n\n\n&\n´\n\nG\n\n",{x:0.1},
+
+"-\n\n\ncaps\n\n\n#\n´\n\nH\n\n",{x:0.1},
+"4\n\n<i class='fa fa-arrow-circle-left'></i>\n<i class='fa fa-arrow-left'></i>\n\n\n(\nú\n\nJ\n\nShift",{x:0.1},
+"5\n\n<i class='fa fa-arrow-circle-down'></i>\n<i class='fa fa-arrow-down'></i>\n\n\n)\ní\n\nK\n\nControl",{x:0.1},
+"6\n\n<i class='fa fa-arrow-circle-up'></i>\n<i class='fa fa-arrow-up'></i>\n\n\n;\nó\n\nL\n\nAlt",{x:0.1},
+"/\n\n<i class='fa fa-arrow-circle-right'></i>\n<i class='fa fa-arrow-right'></i>\n\n\n\"\n\n\nÇ\n\n<i class='kb kb-logo-linux-tux-ibm'></i>",{x:0.1}
+
+"\nF10\n\n\n\n\n~\nâ\n\nZ\n\n",{x:0.1},
+"\nF1\n\n\n\n\n+\n\n\nX\n\n",{x:0.1},
+"\nF2\n\n\n\n\n[\nê\n\nC\n\n",{x:0.1},
+"\nF3\n\n\n\n\n]\n`\n\nV\n\n",{x:0.1},
+"\n<i class='fa fa-pause'></i>\n\n\n\n\n%\n^\n\nB\n\n",{x:0.1},
+
+"0\n\n\nins\n\n\n@\n^\n\nN\n\n",{x:0.1},
+"1\n\nlc\nhome\n\n\n:\n`\n\nM\n\n",{x:0.1},
+"2\n\nmc\npg dn\n\n\n,\n\n<\n,\n\n",{x:0.1},
+"3\n\nrc\npg up\n\n\n.\nô\n>\n.\n\n",{x:0.1},
+".\n\n\nendI\n\n\n'\n\n:\n;\n\n",{x:0.1}
+
+
+
+
+
+
+
+
+
+
+
+
+[
+  {
+    a:0,
+    fa:[9,5,7,5,5,5,9,5,9,9,7,5]
+  },
+  {h:2},{w:2},"Q\nF12\n\nbt0\n\n\n\n\nã\n?\n\n\n",{x:0.1},
+  {h:2},{w:2},"W\nF8\n\nbt1\n\n\n\n\n\n<\n\n\n",{x:0.1},
+  {h:2},{w:2},"E\nF9\n\nbt2\n\n\n\n\n\n>\n\n\n",{x:0.1},
+  {h:2},{w:2},"R\nF10\n\nbt3\n\n\n\n\n\n-\n\n\n",{x:0.1},
+  {h:2},{w:2},"T\n<i class='fa fa-camera'></i>\n\nbt4\n\n\n\n\n~\n|\n\n\n",{x:0.1},
+  {x:5.2},
+  {h:2},{w:2},"Y\n+\n<i class='fa fa-repeat'></i>\nredo\n\n\n\n\n~\n^\n\n\n",{x:0.1},
+  {h:2},{w:2},"U\n7\n<i class='fa fa-paste'></i>\nsc dw\n\n\n\n\n\n{\n\n\n",{x:0.1},
+  {h:2},{w:2},"I\n8\n<i class='fa fa-copy'></i>\nsc up\n\n\n\n\n\n}\n\n\n",{x:0.1},
+  {h:2},{w:2},"O\n9\n<i class='fa fa-cut'></i>\n\n\n\n\n\nõ\n$\n\n\n",{x:0.1},
+  {h:2},{w:2},"P\n*\n<i class='fa fa-undo'></i>\nundo\n\n\n\n\n\n_\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1}
+],
+[
+  {y:1.1},
+  {h:2},{w:2},"A\nF11\n\nout tog\n\n\n\n\ná\n!\n\n<i class='kb kb-logo-linux-tux-ibm'></i>\n",{x:0.1},
+  {h:2},{w:2},"S\nF4\n\nbt clr\n\n\n\n\nà\n*\n\nAlt\n",{x:0.1},
+  {h:2},{w:2},"D\nF5\n\nbt prv\n\n\n\n\né\n/\n\nControl\n",{x:0.1},
+  {h:2},{w:2},"F\nF6\n\nbt nxt\n\n\n\n\n\n=\n\nShift\n",{x:0.1},
+  {h:2},{w:2},"G\n<i class='mss mss-Unicode-Scroll-3'></i>\n\n\n\n\n\n\n´\n&\n\n\n",{x:0.1},
+  {x:5.2},
+  {h:2},{w:2},"H\n-\ncaps\n\n\n\n\n\n´\n#\n\n\n",{x:0.1},
+  {h:2},{w:2},"J\n4\n<i class='fa fa-arrow-left'></i>\n<i class='fa fa-arrow-circle-left'></i>\n\n\n\n\nú\n(\n\nShift\n",{x:0.1},
+  {h:2},{w:2},"K\n5\n<i class='fa fa-arrow-down'></i>\n<i class='fa fa-arrow-circle-down'></i>\n\n\n\n\ní\n)\n\nControl\n",{x:0.1},
+  {h:2},{w:2},"L\n6\n<i class='fa fa-arrow-up'></i>\n<i class='fa fa-arrow-circle-up'></i>\n\n\n\n\nó\n;\n\nAlt\n",{x:0.1},
+  {h:2},{w:2},"Ç\n/\n<i class='fa fa-arrow-right'></i>\n<i class='fa fa-arrow-circle-right'></i>\n\n\n\n\n\n\"\n\n<i class='kb kb-logo-linux-tux-ibm'></i>\n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1}
+],
+[
+  {y:1.1},
+  {h:2},{w:2},"Z\nF10\n\n\n\n\n\n\nâ\n~\n\n\n",{x:0.1},
+  {h:2},{w:2},"X\nF1\n\n\n\n\n\n\n\n+\n\n\n",{x:0.1},
+  {h:2},{w:2},"C\nF2\n\n\n\n\n\n\nê\n[\n\n\n",{x:0.1},
+  {h:2},{w:2},"V\nF3\n\n\n\n\n\n\n`\n]\n\n\n",{x:0.1},
+  {h:2},{w:2},"B\n<i class='fa fa-pause'></i>\n\n\n\n\n\n\n^\n%\n\n\n",{x:0.1},
+  {x:5.2},
+  {h:2},{w:2},"N\n0\nins\n\n\n\n\n\n^\n@\n\n\n",{x:0.1},
+  {h:2},{w:2},"M\n1\nhome\nlc\n\n\n\n\n`\n:\n\n\n",{x:0.1},
+  {h:2},{w:2},",\n2\npg dn\nmc\n\n\n<\n\n\n,\n\n\n",{x:0.1},
+  {h:2},{w:2},".\n3\npg up\nrc\n\n\n>\n\nô\n.\n\n\n",{x:0.1},
+  {h:2},{w:2},";\n.\nen\n\n\n\n:\n\n\n'\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",{x:0.1}
+],
+[
+  {y:1.1},
+  {x:6.3},
+  {h:2},{w:2},"Escape\n\n\n<i class='fa fa-mouse-pointer'></i>\n\n\n\n\n\n\nACCN\n",{x:0.1},
+  {h:2},{w:2},"Tab\n<i class='fa fa-mouse-pointer'></i>\n\n<i class='kb kb-Multimedia-Play-Pause'></i>\n\n\n\n\n\n\nNAVI\n",{x:0.1},
+  {h:2},{w:2},"Space\n<i class='kb kb-Multimedia-Play-Pause'></i>\n\n\n\n\n\n\n\n\nNUMB\n",{x:0.1},
+  {x:1},
+  {h:2},{w:2},"Space\n\n\n\n\n\n\n\n\n\nSYMB\n",{x:0.1},
+  {h:2},{w:2},"<i class='mss mss-Unicode-BackSpace-DeleteLeft-Big-2'></i>\n\n\n<i class='fa fa-wifi'></i>\n\n\n<i class='mss mss-Unicode-DeleteRight-Big-2'></i>\n\n\n\nFUNC\n",{x:0.1},
+  {h:2},{w:2},"Enter\n<i class='fa fa-wifi'></i>\n\n\n\n\n\n\n\n\nACCN\n",{x:0.1}
+],
+[
+  {
+    fa:[5,5,5,5,5,5,5,5,5,5,5,5]
+  },
+  {y:-7.3},
+  {x:12},
+  {h:2},{w:2},"BASE\nFUNC\nNAVI\nBLTH\n\n\n\n\n\n\n\n"
+],
+[
+  {
+    fa:[5,5,5,5,5,5,5,5,5,5,5,5]
+  },
+  {y:1.1},
+  {x:12},
+  {h:2},{w:2},"\nNUMB\n\n\n\n\n\n\nACCN\nSYMB\n\n"
+],
+[
+  {
+    fa:[5,5,5,5,5,5,5,5,5,5,5,5]
+  },
+  {y:1.1},
+  {x:12},
+  {h:2},{w:2},"A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL"
+]
+

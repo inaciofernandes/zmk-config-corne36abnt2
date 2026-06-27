@@ -339,7 +339,7 @@
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         &none &kp PT_EXCL     &kp PT_ASTRK    &kp PT_SLASH    &kp PT_EQUAL    &kp PT_AMPS       &kp PT_HASH     &kp PT_LPAR     &kp PT_RPAR     &kp PT_SEMI     &kp PT_DQT    &none
         //  ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-        &none &kp PT_TILDE    &kp PT_PLUS     &kp PT_LBKT     &kp PT_RBKT     &kp PT_PRCNT      &kp PT_AT       &kp PT_COLON    &kp PT_COMMA    &kp PT_DOT      &kp PT_APOS   &none
+        &none &kp PT_BSLH     &kp PT_PLUS     &kp PT_LBKT     &kp PT_RBKT     &kp PT_PRCNT      &kp PT_AT       &kp PT_COLON    &kp PT_COMMA    &kp PT_DOT      &kp PT_APOS   &none
         //  ╰───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╯
                                               &to BASE        &kp TAB         &kp SPACE         &kp SPACE       &bs_del         &kp RET
         //                                  ╰───────────────┴───────────────┴───────────────╯ ╰───────────────┴───────────────┴───────────────╯
